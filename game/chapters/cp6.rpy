@@ -16,7 +16,7 @@ label cp6_start:
     window show
 
     # 【bgm：和平、温馨】
-    play music "audio/bgm/电颤琴 枝江.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/电颤琴 枝江.ogg" fadeout 3.0 fadein 3.0
 
     # 【病房_yoru】
     # 【心电图的滴滴声】
@@ -66,7 +66,7 @@ label cp6_start:
     "冬天真是一个残酷得让人讨厌的季节。"
 
     # 【BGM：悲伤、沮丧】
-    play music "audio/bgm/emo.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/emo.ogg" fadeout 3.0 fadein 3.0
 
     # 【立绘：嘉然_失落】
     show jr lost  with dissolve
@@ -183,7 +183,7 @@ label cp6_start:
     scene 购物中心早
 
     # 【加入一些嘈杂的人群声效】
-    play sound "audio/se/熙攘的人群渐弱.mp3" 
+    play sound "audio/se/熙攘的人群渐弱.ogg" 
 
     "广场中央的大屏幕：“截至早上八点，新科顶流偶像团体诞生了！”"
 
@@ -211,10 +211,10 @@ label cp6_start:
     # 【购物中心_傍晚】
 
     # 【BGM：欢快、轻松】
-    play music "audio/bgm/欢快_日常？ 三拍子.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/欢快_日常？ 三拍子.ogg" fadeout 3.0 fadein 3.0
 
     # 【嘈杂的人群声效】
-    play sound "audio/se/熙攘的人群渐弱.mp3"
+    play sound "audio/se/熙攘的人群渐弱.ogg"
     
     "身处繁华的步行街，向晚拉着嘉然在熙熙攘攘的人流中穿梭。"
 
@@ -324,7 +324,7 @@ label cp6_start:
     show xw shock
     with sshake
     # 【BGM：欢快、调皮】
-    play music "audio/bgm/日常 滑稽？.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/日常 滑稽？.ogg" fadeout 1.0 fadein 3.0
 
 
     xw "停停停！不要在这种地方一本正经地做自我介绍啊啊啊啊！"
@@ -371,7 +371,7 @@ label cp6_start:
     "三个人转眼间消失在人群之中。"
 
     # 【嘈杂的人群声效】
-    play sound "audio/se/熙攘的人群渐弱.mp3"
+    play sound "audio/se/熙攘的人群渐弱.ogg"
 
     "…………"
 
@@ -393,7 +393,7 @@ label cp6_start:
     # 【场景四】
     scene 贝叶庙
     # 【BGM：和平、温馨】
-    play music "audio/bgm/放松 温暖 平静.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/放松 温暖 平静.ogg" fadeout 3.0 fadein 3.0
 
     # 【贝叶庙1】
     # 【立绘：贝拉_日常（闭眼）】
@@ -556,7 +556,7 @@ label cp6_start:
 
     jr "但总觉得不是很合适……"
 
-    play music "audio/bgm/梦幻曲 德彪西.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/梦幻曲 德彪西.ogg" fadeout 3.0 fadein 3.0
     show bl doubt with dissolve
 
     bl "诶？怎么了？"
@@ -741,10 +741,10 @@ label cp6_start:
     scene 玄关熄灯
     with fade   
 
-    play music "audio/bgm/悬疑诡异气氛通用BGM1.mp3" fadeout 3.0 fadein 6.0
+    play music "audio/bgm/悬疑诡异气氛通用BGM1.ogg" fadeout 3.0 fadein 6.0
 
     "咔哒。"
-    play sound "audio/se/室内关门.mp3"
+    play sound "audio/se/室内关门.ogg"
 
     "伴随着一记清脆的声响，宿舍的大门被静静地推开。"
 
@@ -836,7 +836,7 @@ label cp6_start:
     jr "里面还有水流的声音。"
 
     # 【微弱的水流音效】
-    play sound "audio/se/微弱水流声.mp3"
+    play sound "audio/se/微弱水流声.ogg"
 
     # 【立绘：珈乐_日常】
 
@@ -927,7 +927,7 @@ label cp6_start:
     show xw normal eyeclosd at l2 
 
     show jr thinking at l4
-    play music "audio/bgm/日常 滑稽？.mp3" fadeout 3.0 fadein 6.0
+    play music "audio/bgm/日常 滑稽？.ogg" fadeout 3.0 fadein 6.0
 
     "【众人】" "…………………………………………"
 
@@ -1049,7 +1049,7 @@ label cp6_start:
     # 【BGM：无】
     # 【客厅_晚】
     scene 客厅夜
-    play music "audio/bgm/放松 温暖 平静.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/放松 温暖 平静.ogg" fadeout 3.0 fadein 3.0
 
     # 【立绘：向晚_微笑】
     show xw smile at l2 with dissolve
@@ -1203,7 +1203,7 @@ label cp6_start:
 
     jr "头好痛……"
 
-    play music "audio/bgm/鲸.mp3" fadeout 4.0 fadein 5.0
+    play music "audio/bgm/鲸.ogg" fadeout 4.0 fadein 5.0
 
     show nl surly with dissolve
 
@@ -1292,7 +1292,7 @@ label cp6_start:
     jl "透透气吧。"
 
     # 【落地窗被拉开的音效】
-    play sound "audio/se/开窗window1_C.mp3"
+    play sound "audio/se/开窗window1_C.ogg"
 
     "珈乐走向客厅的落地窗，把窗子打开了一半。"
 
@@ -1308,7 +1308,7 @@ label cp6_start:
     # 【场景九】
 
 
-    play music "audio/bgm/钢琴1 缓和.mp3" fadeout 4.0 fadein 5.0
+    play music "audio/bgm/钢琴1 缓和.ogg" fadeout 4.0 fadein 5.0
     # 【0.5月_云】
 
     "一走上阳台，向晚就感觉到一股清冷的风把自己包围。"

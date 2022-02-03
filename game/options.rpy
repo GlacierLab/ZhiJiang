@@ -88,14 +88,16 @@ define gui.accent_color = '#ffffff'
 ## 游戏版本号。
 
 define config.version = ""
-
+define config.cache_surfaces = False
+define config.image_cache_size_mb = 256
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p(
 """
-制作组: A-SOUL GameMaking Project  一个魂游戏制作
+制作组: A-SOUL GameMaking Project  一个魂游戏制作\n
+移植：琴梨梨 https://qinlili.bid
 
 copyright A-SOUL GameMaking Project 2021 Presents. \n
                 All Rights Reserved\n
@@ -153,12 +155,12 @@ define config.has_voice = False
 ## 允许用户在音效或语音轨道上播放测试音频文件，将以下语句取消注释并设置样音就可
 ## 以使用。
 
-##define config.sample_sound = "sample-sound.wav"
+##define config.sample_sound = "sample-sound.ogg"
 
 ## 将以下语句取消注释就可以设置主界面播放的背景音乐文件。此文件将在整个游戏中持
 ## 续播放，直至音乐停止或其他文件开始播放。
 
-define config.main_menu_music = "audio/zhijiang.wav"
+define config.main_menu_music = "audio/zhijiang.ogg"
 
 
 ## 转场 ##########################################################################
@@ -291,6 +293,7 @@ init python:
     build.classify("game/**.jpg", "images")
     build.classify("game/**.png", "images")
     build.classify("game/**.bmp", "images")
+    build.classify("game/**.webp", "images")
 
 
     build.classify('game/**.ttf', 'sys')
@@ -299,7 +302,7 @@ init python:
     build.classify('game/**.rpyc', 'sys')
     build.classify('game/**.ogg', 'audio')
     build.classify('game/**.wav', 'audio')
-    build.classify('game/**.mp3', 'audio')
+    build.classify('game/**.ogg', 'audio')
     build.classify("game/**.webm", "audio")
 
 

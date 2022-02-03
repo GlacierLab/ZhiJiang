@@ -1,6 +1,6 @@
 label be3:
     #【场景：病房房间-夜】
-    play music "audio/bgm/普通 悲伤类的抒情1 .mp3"
+    play music "audio/bgm/普通 悲伤类的抒情1 .ogg"
     scene 病房强月光 
     
     show xw sad at r2
@@ -26,11 +26,11 @@ label be3:
 
     scene 病房1 with dissolve
     "第二天天一亮，睡得昏昏沉沉的乃琳就被吵醒了。"
-    play music "audio/bgm/危机1.mp3" fadein 4.0 fadeout 4.0
+    play music "audio/bgm/危机1.ogg" fadein 4.0 fadeout 4.0
 
     "【???】" "是这一间吗？"
     "【???】" "定位上这不是清清楚楚吗？"
-    play sound "audio/se/开门声.mp3"
+    play sound "audio/se/开门声.ogg"
     "不耐烦的声音，这是……"
     #【立绘：阿草-愤怒】
     show ac angery at center with dissolve
@@ -49,7 +49,7 @@ label be3:
     #【立绘：乃琳-悲伤】
     nl "向晚，对不起……"
     "乃琳掏出了她的伯莱塔92F，对准了向晚。"
-    play sound "audio/se/枪声三连.mp3"
+    play sound "audio/se/枪声三连.ogg"
     #【三发枪声】
     scene black with dissolve
     "（枪声）"
@@ -72,7 +72,7 @@ label be3:
     "乃琳抛过一把钥匙"
     nl "这是我的车，你带着大家从后门走，一直往城市外面开。"
     #【枪声三连】
-    play sound "audio/se/枪声三连.mp3"
+    play sound "audio/se/枪声三连.ogg"
     "乃琳屏息凝神，单眼瞄准，三发子弹又一次射出枪膛。"
     "子弹向着阿草身上飞去，他不闪不避，好像一股无形的力量正守护着他，弹头近在咫尺却失去了全部动力，随着地心引力一颗不剩的全砸在地板上。"
     with vpunch
@@ -113,7 +113,7 @@ label be3:
     nl "晚晚！"
     show nl angery at center with move
 
-    play sound "audio/se/枪声.mp3"
+    play sound "audio/se/枪声.ogg"
     "（砰）"
     hide nl normal with moveoutbottom
     

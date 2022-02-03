@@ -97,15 +97,15 @@ transform blur(child):
 
 screen memory_filter:
     zorder 50
-    add "回忆滤镜.png" at normal_size:
+    add "回忆滤镜.webp" at normal_size:
         alpha 0.7
 
 image dirty_filter:
-    "底层火焰.png"
+    "底层火焰.webp"
     size(1280,720)
 
 image 火星:
-    "火星.png"
+    "火星.webp"
     size(1280,720)
 
 
@@ -205,7 +205,7 @@ screen saying(s,xalign=0.5,yalign=0.5,size=30,color="#fff",font="SourceHanSerifC
     zorder 200
     text s xalign xalign yalign yalign size size color color font font
     if addImg:
-        add "bg/背景花.png" at normal_size
+        add "bg/背景花.webp" at normal_size
 
 screen saying_black(s,xalign=0.5,yalign=0.5,size=30,color="#000000",font="SourceHanSerifCN-Bold.otf"):
     zorder 200

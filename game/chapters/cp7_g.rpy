@@ -20,7 +20,7 @@ label .part1:
     #bgm 紧张的音乐
 
 
-    play music "audio/bgm/悬疑.mp3" fadeout 2.0 fadein 3.0
+    play music "audio/bgm/悬疑.ogg" fadeout 2.0 fadein 3.0
     #场景 黄昏 医院内
     scene 黄昏医院 with dissolve
     window show
@@ -37,7 +37,7 @@ label .part1:
     scene 黄昏街头 with fade
     #bgm 紧张的音乐
     #声音 【嘈杂的人声】
-    play sound "/audio/se/难分辨的人群噪音-2.mp3"
+    play sound "/audio/se/难分辨的人群噪音-2.ogg"
     "【粉丝C】" "什么？全都不见了？"
 
     "【粉丝D】" "医院那边说然然中午就走了，剩下四个人也不知道去哪。直播间里一个人都没有！"
@@ -46,7 +46,7 @@ label .part1:
     "【粉丝C】" "一定要找到她们，一定要找到！"
 
     #声音 【嘈杂的人声（渐弱处理）】
-    play sound "/audio/se/难分辨的人群噪音-2.mp3" fadeout 1.5
+    play sound "/audio/se/难分辨的人群噪音-2.ogg" fadeout 1.5
     stop sound
     #声音 【灌木丛摇晃的声音】
 
@@ -89,7 +89,7 @@ label .part1:
     hide screen saying with Dissolve(1)
 
     #"bgm 抒情"
-    play music "audio/bgm/伤感双吉他.mp3" fadeout 2.0 fadein 2.0
+    play music "audio/bgm/伤感双吉他.ogg" fadeout 2.0 fadein 2.0
     #"场景 黄昏 病房内"
     show 黄昏病房
     show jr normal at l2
@@ -105,7 +105,7 @@ label .part1:
     "这时，一直紧闭的门毫无征兆地被推了开来。"
 
     #"此处应是开门声"
-    play sound "/audio/se/开门声.mp3"
+    play sound "/audio/se/开门声.ogg"
 
     show xw sad at r2 with easeinright
 
@@ -187,7 +187,7 @@ label .part1:
     
     #画面震动特效
     #声音 【布料摩擦的声音】
-    play sound "<from 4 to 12>/audio/se/衣服布料声.mp3"
+    play sound "<from 4 to 12>/audio/se/衣服布料声.ogg"
     #【向晚的立绘亮】
     #立绘 向晚 哭泣
     xw "呜啊啊啊啊，然然……然然……我……我又……又搞砸了。"
@@ -282,11 +282,11 @@ label .part1:
 
 label .part2:
     #bgm 抒情的音乐
-    play music "audio/bgm/抒情双吉他.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/抒情双吉他.ogg" fadeout 1.0 fadein 3.0
     #场景 黄昏 林荫小道
 
     scene 黄昏林荫小道 with fade
-    play sound "/audio/se/虫鸣鸟叫声.mp3"
+    play sound "/audio/se/虫鸣鸟叫声.ogg"
     "这正是一天中最短暂，却也最令人心醉的时刻。月亮飘在一片湛蓝的光上，跟着时钟的指针一步一步地，将那些消失了一整天的星光重新点在降温的天穹上。"
     "树与灌木在温柔的光中俯首称臣，叶片的边缘好像吸饱了水分，散发着神秘的光晕，如浮在光之海洋中的小船。"
     "熟悉的街道和楼房顺着嘉然和向晚的视线铺就开来，它们一言不发，好像已经在这里存在了许久，又好像它们刚刚因嘉然的心意一动，而存乎于此处一般。"
@@ -300,7 +300,7 @@ label .part2:
     #【嘉然的立绘亮】
     #【向晚的立绘亮】
     #声音 【杂乱的脚步声】
-    play sound "/audio/se/清脆的脚步声-3.mp3"
+    play sound "/audio/se/清脆的脚步声-3.ogg"
     show xw gloomy at l2
     show jr normal at r2
     with dissolve
@@ -380,7 +380,7 @@ label .part3:
     #【嘉然的立绘暗】
     #【向晚的立绘暗】
     # 声音 【杂乱的脚步声】
-    play sound "/audio/se/清脆的脚步声-3.mp3"
+    play sound "/audio/se/清脆的脚步声-3.ogg"
     "说着，嘉然握住向晚的手，和她一起轻巧地跑向了教堂的正门。"
     "正门是一个窄而高的木质大门，最顶端有着圆弧状的轮廓，门框上镶嵌着精巧的浮雕。"
     "嘉然轻轻地推了推大门，深色的木质大门看样子有段时间没有人使用过，门把手上落着一层薄灰。"
@@ -389,12 +389,12 @@ label .part3:
 
 label .part4:
     #bgm 神圣的宗教音乐
-    play music "audio/bgm/b站女声圣咏.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/b站女声圣咏.ogg" fadeout 1.0 fadein 3.0
     #场景 黄昏 教堂内
 
     scene 教堂内 with fade
     #声音 【开门的声音】
-    play sound "/audio/se/开门声.mp3"
+    play sound "/audio/se/开门声.ogg"
     "吱呀一声，门开了。顺着那小小的开口，向晚窥见了被多边形的狭长阳光所切割开来的昏暗内室。被彩色玻璃晕染上颜色的阳光从那细长的窗户穿入，然后落在了整齐排列的座椅上。"
     "丁达尔效应让室内的浮灰被照耀成闪光的蜉蝣，它们自得其乐地在寂静的教堂里漂浮着。"
     "嘉然将门又推开了些，和向晚缓步走入。空气中弥漫着一股陈旧的香气，似乎是上一次礼拜时点燃的香薰。"
@@ -403,7 +403,7 @@ label .part4:
 
     #【嘉然的立绘亮】
     #声音 【缓慢的脚步声】
-    play sound "/audio/se/逐渐远去脚步.mp3"
+    play sound "/audio/se/逐渐远去脚步.ogg"
     show jr laugh with dissolve
     #立绘 嘉然（日常）：
     jr "晚晚，你看，这里是不是很漂亮？"
@@ -462,14 +462,14 @@ label .part4:
     #【嘉然的立绘暗】
     #【向晚的立绘暗】
     scene 教堂走廊 with dissolve
-    play sound "/audio/se/清脆的脚步声-3.mp3"
+    play sound "/audio/se/清脆的脚步声-3.ogg"
     "说着，嘉然带着向晚向左边走去。那里有一个小小的通道，十分不起眼。在通道的入口处摆着两根蜡烛，烛台的造型十分精致，但显然已经失去了其本身的作用。"
     "进入通道后，嘉然拐了个弯，带着向晚来到了紧贴着大厅的走廊上。"
     "走廊里铺着一条泛红色的地毯，走廊左边有一排房间，门上贴着相应的编号。"
     "嘉然来到了编号为873的房间面前，她轻轻推了推门，门却没有听话地打开。它被锁住了，而锁头上布满灰尘，显然这里已经很久没有被打开过。"
     "嘉然却并不显露出意外的表情。她转过头，对向晚摆了个鬼脸，然后娴熟地蹲下身，从地毯下方摸出了一把钥匙。"
     "钥匙造型典雅，似乎还有金丝做装饰。锁头在被解开时发出了一声清脆的响声。这一声响似乎发动了时钟的发条一样，让整片走廊里近乎于凝滞的时间重新开始流动。"
-    play sound "/audio/se/开门room_door_O.mp3"
+    play sound "/audio/se/开门room_door_O.ogg"
     "有风从通道的另一侧灌入，吹散了那些氤氲许久的香气，向晚感到自己的头发正在空中飘散，她看着嘉然为自己打开了房间的门。"
     "随后，她和嘉然一同步入了其中。"
 
@@ -477,7 +477,7 @@ label .part4:
 
 label .part5:
     #bgm 放松的音乐
-    play music "audio/bgm/放松 温暖 平静.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/放松 温暖 平静.ogg" fadeout 1.0 fadein 3.0
     #场景 黄昏 嘉然房间内
     scene 嘉然房间 with fade
     "房间不大，但看上去十分充实，窗户紧闭着，在窗户边上摆着一张单人床。床边是一个将书柜和书桌二合一的家具，配着一把造型古朴的木椅子。"
@@ -499,7 +499,7 @@ label .part5:
     jr "来，晚晚，坐到床上吧，这可比病床舒服多了。"
 
     #声音 【布料摩擦的声音】
-    play sound "<from 4 to 12>/audio/se/衣服布料声.mp3"
+    play sound "<from 4 to 12>/audio/se/衣服布料声.ogg"
     show xw uncertain at l2 with dissolve
     #立绘 向晚（惊讶）：
     xw "哇，真的诶，好软！我还以为教堂里面的生活条件会很艰苦呢。"
@@ -576,7 +576,7 @@ label .part5:
     #【嘉然的立绘暗】
     #【向晚的立绘暗】
     "向晚有些担忧地挥了挥手，她面露踌躇，不知道是否该跟上去。"
-    play sound "/audio/se/木门关门.mp3"
+    play sound "/audio/se/木门关门.ogg"
     #声音 【关门的声音】
     hide jr with dissolve
     "嘉然走了出去，轻轻地将门关上。她的动作很轻，但关门的那一刹那发出的咔哒声依然显得无比刺耳。"
@@ -623,7 +623,7 @@ label .part5:
 
     #【向晚的立绘暗】
     #声音【木头的摩擦声】
-    play sound "/audio/se/纸张摩擦14302].mp3"
+    play sound "/audio/se/纸张摩擦14302].ogg"
     "随后，向晚带着一股一不做二不休的气势拉开了抽屉——里面空无一物。"
     "向晚稍稍楞了一下，随后自嘲地笑了起来"
 
@@ -650,7 +650,7 @@ label .part5:
 
     #【向晚的立绘暗】
     #声音 【纸张的摩擦声】
-    play sound "/audio/se/折叠_翻开_摩擦纸张18749].mp3"
+    play sound "/audio/se/折叠_翻开_摩擦纸张18749].ogg"
     #图片【信纸的立绘出现】
 
     "向晚掩耳盗铃似地闭上了双眼，然后缓缓展开了信纸。随后，她小心翼翼地睁开眼睛，心虚地看向信纸上娟秀的文字。"
@@ -678,7 +678,7 @@ label .part5:
     #特效 【画面震动】
     #声音 【凌乱的脚步声】
     #声音 【木头的摩擦声】
-    play sound "/audio/se/纸张摩擦14302].mp3"
+    play sound "/audio/se/纸张摩擦14302].ogg"
 
     "她感到自己的血在一瞬间都要冻上了，心脏剧烈地跳动着，肾上腺素在一瞬间大量分泌，让她不由自主地开始大口喘气。"
     "向晚侧耳倾听，却发现那门外的声音似乎仅仅是风声。空洞的风刮过同样空洞的走廊，发出了近乎于呜咽一样的共鸣。"
@@ -698,7 +698,7 @@ label .part5:
 
 label .part6:
     #bgm 紧张的音乐
-    play music "audio/bgm/悬疑诡异气氛通用BGM1.mp3" fadeout 1.0 fadein 1.5
+    play music "audio/bgm/悬疑诡异气氛通用BGM1.ogg" fadeout 1.0 fadein 1.5
     #场景 黄昏 教堂内
     scene 教堂走廊 with fade
     "走廊里空无一人，空中的浮尘静悄悄地望着她。她看向走廊的尽头，仿佛嘉然的身影还留存在那里。仿佛墙壁和地毯还记得那靓影划过自己身躯时的触感。"
@@ -711,7 +711,7 @@ label .part6:
     "向晚喊了几声嘉然，可除了回声以外，没有任何回应。"
 
     #声音【急促的脚步声】
-    play sound "/audio/se/急促脚步running_in_a_hall.mp3"
+    play sound "/audio/se/急促脚步running_in_a_hall.ogg"
     "她沿着走廊，向大厅走去。也许是隔音太好，嘉然没听到自己的声音，向晚安慰着自己。"
     "然而，当她拐入大厅的时候，所有的自我安慰刹那间土崩瓦解。大厅里空无一人，那些死去的物件安安静静地站在它们本来的位置上，波澜不惊地望着向晚。"
     stop sound
@@ -733,12 +733,12 @@ label .part6:
     show xw unconcerned frown with dissolve
     #立绘 向晚（不安）：
     xw "嘉然！嘉然！"
-    play sound "/audio/se/急促脚步running1.mp3"
+    play sound "/audio/se/急促脚步running1.ogg"
     "向晚大步流星地走着，一边走，一边呼唤着嘉然的名字。她的声音和话语迅速地淹没在永恒的沉默里。"
 
     #声音 【脚步声】
     #声音 【扭动门把手的声音】
-    play sound "/audio/se/开门声.mp3"
+    play sound "/audio/se/开门声.ogg"
     "路过那些宿舍的时候，她没忘记挨个拧拧门把手。但除了873房间以外，所有门都紧锁着。这一次，地毯下也没有备用钥匙了。"
     "当她拐进那走廊的尽头，却没看到能够回应自己期待的画面——杂乱的家具堆砌在一起，封死了走廊，而在短短的一截走廊里，没有任何房间可供进入。"
     "那没有任何其他出口或是房间的整齐墙壁。简直像是在嘲讽她一样，这里的墙壁看起来比873房间外走廊的墙壁还要光滑，还要平整。"
@@ -772,7 +772,7 @@ label .part6:
     "顺着缝隙，向晚确定了一块大概一人高的暗门的位置。她使劲地推了推暗门，听到了金属发出的令人牙酸的摩擦声。"
 
     #声音 【令人牙酸的摩擦声】
-    play sound "/audio/se/玻璃碎片挤压摩擦20603].mp3"
+    play sound "/audio/se/玻璃碎片挤压摩擦20603].ogg"
     #【向晚的立绘亮】
     show xw mow with dissolve
     #立绘 向晚（皱眉）：
@@ -789,7 +789,7 @@ label .part6:
     xw "然然！你听得到吗……听得到……就帮我——啊！！！"
 
     #声音 【碰撞声】
-    play sound "/audio/se/碰撞音效14697].mp3"
+    play sound "/audio/se/碰撞音效14697].ogg"
     #特效 【画面震动】
     with sshake
     "也许是年久失修，也有可能是福至心灵，随着一声清脆的断裂声，支撑不住的密室大门终于敞开了。"
@@ -798,7 +798,7 @@ label .part6:
 
 label .part7:
     #bgm 神秘的音乐
-    play music "audio/bgm/Leos Janáček - In the Mists.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/In the Mists.ogg" fadeout 1.0 fadein 3.0
     #场景 黄昏 密实内
 
     scene 密室内 with fade
@@ -807,7 +807,7 @@ label .part7:
     #声音 【碰撞声】
     #【向晚的立绘亮】
     show xw shock at l2 with dissolve
-    play sound "/audio/se/碰撞音效13319].mp3"
+    play sound "/audio/se/碰撞音效13319].ogg"
     #立绘 向晚（惊讶）：
     xw "啊！疼疼疼！"
     show xw worried at l2 with dissolve
@@ -880,12 +880,12 @@ label .part7:
     #特效 【画面震动】
     with sshake
     #声音 【布料摩擦的声音】
-    play sound "/audio/se/衣服布料声.mp3"
+    play sound "/audio/se/衣服布料声.ogg"
     #【嘉然的立绘亮】
     #【向晚的立绘亮】
     show xw shock at l2 with dissolve
     #bgm ——播放放松的音乐——
-    play music "audio/bgm/抒情双吉他.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/抒情双吉他.ogg" fadeout 1.0 fadein 3.0
     show jr embarrassed at r2 with dissolve
     #立绘 嘉然（惊讶）：
     jr "诶！晚晚！你怎么了？"
@@ -931,7 +931,7 @@ label .part7:
     #stop music fadeout 2.0
     "就好像河流奔腾入海，金色的光从匕首直直的涌入嘉然的手中。"
     "看到这一幕，向晚本能地想让嘉然松开那把匕首，但还没等移动，就发现自己的身体仿佛被麻痹了一样使不上力气。她眼睁睁地看着那些金光尽数涌入了嘉然的体内。"
-    play sound "/audio/se/voice_of_light.mp3"
+    play sound "/audio/se/voice_of_light.ogg"
     "沿着血管，金色的光一路向上。从嘉然那双湛蓝色的眸子里，向晚看到了黄金色的光点在不断闪烁。"
 
     #声音 【闪光的音效】
@@ -940,7 +940,7 @@ label .part7:
     #立绘 向晚（惊讶）：
     xw "然然！"
     "向晚呼唤着嘉然，但她却好像没听见一样。等到那匕首中的金光尽数消失，嘉然如同从白日梦中惊醒一样回过神来，向晚才感到自己身上的麻痹感终于消退。"
-    play sound "/audio/se/voice_of_light.mp3"
+    play sound "/audio/se/voice_of_light.ogg"
     #声音 【闪光的音效】
     #【嘉然的立绘亮】
     #【向晚的立绘亮】
@@ -984,7 +984,7 @@ label .part7:
     #【向晚立绘暗】
     #【嘉然立绘暗】
 
-    #play music "audio/bgm/抒情双吉他.mp3" fadeout 1.0 fadein 3.0
+    #play music "audio/bgm/抒情双吉他.ogg" fadeout 1.0 fadein 3.0
 
     jr"公司带我去了枝江市南面的贫民窟。"
     jr"那是一次秘密出访，即便是公司内部也没有几个人知道。"
@@ -1016,7 +1016,7 @@ label .part7:
     show screen memory_filter
     #"贫民窟"抒情的音乐（不含立绘）
     #粉丝1：
-    play sound "/audio/se/难分辨的人群噪音-2.mp3"
+    play sound "/audio/se/难分辨的人群噪音-2.ogg"
     "【粉丝1】" "A-Soul就是我的精神支柱！我每天都要溜五十遍A-Soul的直播录像，二十遍珈乐的歌，十遍向晚的集锦！"
     "【粉丝1】" "没有A-Soul我就吃不下睡不着，你是A-Soul的调研人员吗，你一定要替我转告她们，我特别特别喜欢她们每一个人！"
 
@@ -1052,7 +1052,7 @@ label .part7:
     scene 贫民窟 with dissolve
     show screen memory_filter
     #粉丝3：
-    play sound "/audio/se/难分辨的人群噪音-2.mp3"
+    play sound "/audio/se/难分辨的人群噪音-2.ogg"
     "【粉丝3】"  "……您也许不知道，在A-Soul出现之前，是没有一辆车——尤其是像您这种高档车——能在贫民窟活过一个小时。"
     "【粉丝3】" "愤怒的人们会像对待过街老鼠一样对待这种车……但A-Soul为我们带来的光，为我们带来了完全不同的东西。"
     "【粉丝3】" "您能想象吗，当所有人都热爱着同一件事物，愿意为同一件事物付出一切，也愿意遵循同一种规则时，一切会变得何等完美无缺。"
@@ -1101,7 +1101,7 @@ label .part7:
 
     #夜晚"阿草办公室"紧张的音乐（柔和版Soul"Search）
     scene 阿草办公室 夜 with dissolve
-    play music "audio/bgm/悬疑.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/悬疑.ogg" fadeout 1.0 fadein 3.0
     #jr
     show jr normal at r2
     show ac normal at l2
@@ -1225,7 +1225,7 @@ label .part7:
     #【出回忆】
     #【回到黄昏 墓园 抒情的音乐】
     "嘉然的脸上似乎露出了释然的笑容，她指了指那把匕首，说到"
-    play music "audio/bgm/悬疑.mp3" fadeout 3.0 fadein 5.0
+    play music "audio/bgm/悬疑.ogg" fadeout 3.0 fadein 5.0
 
     #【嘉然的立绘亮】
     #【向晚的立绘亮】
@@ -1339,7 +1339,7 @@ label .part7:
 
 label .part8:
     #场景 黄昏 教堂内 抒情的音乐
-    play music "audio/bgm/钢琴1 缓和.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/钢琴1 缓和.ogg" fadeout 1.0 fadein 3.0
     scene  教堂内 with fade
     "嘉然的话语让向晚的手稍稍松动了一些，嘉然随之再一起取走了帷幕之末。"
     "再一次入手时，帷幕之末没有发出金光。嘉然可以感受到向晚的温度的残留。"
@@ -1384,14 +1384,14 @@ label .part8:
     #立绘 嘉然（微笑）：
     jr "嗯！那我们去教堂大厅吧，那里有十字架和特别漂亮的彩色玻璃！"
     #声音 【有序的脚步声】
-    play sound "/audio/se/脚步声walking_on_floor1.mp3"
+    play sound "/audio/se/脚步声walking_on_floor1.ogg"
     jump .part9
 
 label .part9:
 
     #场景 黄昏 彩色玻璃与十字架的大特写
     #bgm 神圣而温柔的音乐
-    play music "audio/bgm/b站女声圣咏.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/b站女声圣咏.ogg" fadeout 1.0 fadein 3.0
 
     scene 教堂特写 with fade
     #【嘉然的立绘亮】
@@ -1455,13 +1455,13 @@ label .part9:
     "嘉然领着向晚，从大厅的正门离开了教堂。"
 
     #声音【有序的脚步声】
-    play sound "/audio/se/脚步声walking_on_floor1.mp3"
+    play sound "/audio/se/脚步声walking_on_floor1.ogg"
     jump .part10
 
 label .part10:
     #场景 黄昏 教堂外
     #bgm 抒情的音乐
-    play music "audio/bgm/抒情双吉他.mp3" fadeout 1.0 fadein 3.0
+    play music "audio/bgm/抒情双吉他.ogg" fadeout 1.0 fadein 3.0
 
     scene 黄昏教堂外 with fade
     "向晚没有想到嘉然会带着自己离开这里，一时间没有反应过来。"
@@ -1476,7 +1476,7 @@ label .part11:
 
     #场景 黄昏 墓园
     #bgm 抒情的音乐
-    #play music "audio/bgm/伤感双吉他.mp3" fadeout 1.0 fadein 3.0
+    #play music "audio/bgm/伤感双吉他.ogg" fadeout 1.0 fadein 3.0
 
     scene 墓园 with fade
     "样式统一的墓碑整齐有序地排列着，仿佛一个模子刻出来的小鼓包紧挨着那些墓碑。"
@@ -1616,29 +1616,29 @@ label .cp7_g_end:
 define flash_in = Fade(1.0, 0, 0, color="#fff")
 define flash_out = Fade(0.5, 0.0,1.0, color="#fff")
 init python:
-    declare('密室内', 'bg/7 5 密室內.png', 'p')
-    declare('教堂外', 'bg/7 5 教堂外.png', 'p')
-    declare('墓园', 'bg/75 墓园.png', 'p')
-    declare('嘉然房间', 'bg/75 嘉然房间内.png', 'p')
-    declare('教堂特写', 'bg/75 教堂特写.png', 'p')
-    declare('教堂内', 'bg/75 教堂内.png', 'p')
-    declare('黄昏病房', 'bg/0 3 病房(黄昏).png', 'p')
-    declare('黄昏教堂外', 'bg/75 教堂(黄昏).png', 'p')
-    declare('黄昏街头', 'bg/1 2枝江街头(黄昏).png', 'p')
-    declare('黄昏医院', 'bg/1 医院走廊1(黄昏).png', 'p')
-    declare('黄昏林荫小道', 'bg/75 林荫小径.png', 'p')
-    declare('贫民窟', 'bg/贫民窟.png', 'p')
-    declare('教堂走廊', 'bg/82 教堂走廊.png', 'p')
+    declare('密室内', 'bg/7 5 密室內.webp', 'p')
+    declare('教堂外', 'bg/7 5 教堂外.webp', 'p')
+    declare('墓园', 'bg/75 墓园.webp', 'p')
+    declare('嘉然房间', 'bg/75 嘉然房间内.webp', 'p')
+    declare('教堂特写', 'bg/75 教堂特写.webp', 'p')
+    declare('教堂内', 'bg/75 教堂内.webp', 'p')
+    declare('黄昏病房', 'bg/0 3 病房(黄昏).webp', 'p')
+    declare('黄昏教堂外', 'bg/75 教堂(黄昏).webp', 'p')
+    declare('黄昏街头', 'bg/1 2枝江街头(黄昏).webp', 'p')
+    declare('黄昏医院', 'bg/1 医院走廊1(黄昏).webp', 'p')
+    declare('黄昏林荫小道', 'bg/75 林荫小径.webp', 'p')
+    declare('贫民窟', 'bg/贫民窟.webp', 'p')
+    declare('教堂走廊', 'bg/82 教堂走廊.webp', 'p')
 image xw uncertain:
-    "tatie/向晚/疑惑.png"
+    "tatie/向晚/疑惑.webp"
     zoom 0.285
     yoffset 55
 image xw mow:
-    "tatie/向晚/皱眉.png"
+    "tatie/向晚/皱眉.webp"
     zoom 0.285
     yoffset 55
 image jtw_1:
-    "bg/75 教堂(黄昏).png"
+    "bg/75 教堂(黄昏).webp"
     align (0,0) xoffset -2080 yoffset -1460
     1.5
     easeout 1.5 xoffset -1280 yoffset -1460
@@ -1646,14 +1646,14 @@ image jtw_1:
     easein 1.5 xoffset -1280 yoffset -1300
     #easein 1.0 xoffset -980 yoffset -960
 image msn_1:
-    "bg/7 5 密室內.png"
+    "bg/7 5 密室內.webp"
     align (0,0)
     #xoffset -2080 yoffset -1460
     easeout 3.0 xoffset -1280 yoffset -1460
     easein_cubic 3.0 xoffset -1280 yoffset -200
     easein 2.0 xoffset -1280 yoffset -1000
 image jrfj_1:
-    "bg/75 嘉然房间内.png"
+    "bg/75 嘉然房间内.webp"
     align (0,0)
     #xoffset -2080 yoffset -1460
     0.7

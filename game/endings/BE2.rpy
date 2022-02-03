@@ -40,14 +40,14 @@ label be2:
     #旁白：
 
 
-    play music "audio/bgm/伤感双吉他.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/伤感双吉他.ogg" fadeout 3.0 fadein 4.0
     scene 客厅夜 with Dissolve(3)
 
     show xw unconcerned at rc
     "夜色渐渐地深沉了起来，风也愈紧愈大，已经是深夜了。"
     "向晚向窗外望去，今天的夜空逐渐被铅云遮盖了，前半夜时还能看见北极星，而现在连皎银色的玉盘都望不见了，就像是退潮的潮水一样。"
 
-    play sound "audio/se/狂风声自然.mp3"
+    play sound "audio/se/狂风声自然.ogg"
     "风声越来越大，呜呜呼呼的，似乎要下雨了。"
     "能做的她都已经做了，向晚要睡了。"
     stop sound

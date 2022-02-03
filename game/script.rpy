@@ -1,7 +1,3 @@
-python early:
-    import singleton
-    if not config.developer:
-        me = singleton.SingleInstance()
 
 #启动页
 label splashscreen:

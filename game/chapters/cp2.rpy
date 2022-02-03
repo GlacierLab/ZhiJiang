@@ -18,8 +18,8 @@ label .cp2_body:
 
     scene NightStreet with slow_fade#【场景：夜晚街道】
 
-    play music "audio/bgm/钢琴1 缓和.mp3" fadeout 4.0 fadein 5.0#【bgm感觉：暴风雨前的宁静】
-    # play music "audio/bgm/有点逆天的可控的日常.mp3" fadein 5.0#【BGM：忧愁抒情】
+    play music "audio/bgm/钢琴1 缓和.ogg" fadeout 4.0 fadein 5.0#【bgm感觉：暴风雨前的宁静】
+    # play music "audio/bgm/有点逆天的可控的日常.ogg" fadein 5.0#【BGM：忧愁抒情】
     show xw unconcerned frown with dissolve#【向晚：疲惫】
     window show
 
@@ -37,7 +37,7 @@ label .cp2_body:
     scene LivingRoom_light 
     show xw unconcerned frown at r1
     with slow_fade#【场景：客厅】
-    play sound "audio/se/room_door_C.mp3"#【音效：推门】
+    play sound "audio/se/room_door_C.ogg"#【音效：推门】
 
     xw "我回来了。"
     "向晚推开了房门，走进了自己熟悉的家中，房间里的摆设没有任何的变化，但是她却觉得这里有点陌生。"
@@ -64,7 +64,7 @@ label .cp2_body:
     "珈乐的眉头已经皱成了一团，纠结的看着向晚，"
 
 
-    play music "audio/bgm/维瓦尔第 夏第一乐章.mp3"fadeout 4.0 fadein 4.0#【BGM：急促】
+    play music "audio/bgm/维瓦尔第 夏第一乐章.ogg"fadeout 4.0 fadein 4.0#【BGM：急促】
     show xw angery with dissolve
     xw "哼，但我们怎么可能丢下然然，让她一个人养病嘛。"
     "引起沉默的人率先打破了沉默，都是想要想法得到其他人的赞同。"
@@ -99,7 +99,7 @@ label .cp2_body:
     show nl worried with dissolve#【立绘：乃琳担忧】
     nl "晚晚，我们先冷静下来休息一下，然后再谈这些事情。"
     show xw angery with dissolve#【立绘：向晚愤怒】
-    play sound "audio/se/砰的一声关门.mp3"#【声音：拍击木桌或门】
+    play sound "audio/se/砰的一声关门.ogg"#【声音：拍击木桌或门】
 
     scene 争吵 with sshake
 
@@ -197,7 +197,7 @@ label .cp2_body:
     show xw doubt at l2 #【立绘：向晚茫然】
     show nl care at r2 #【立绘：乃琳担忧】
     with moveoutleft
-    play music "audio/bgm/emo.mp3" fadeout 8.0 fadein 5#【BGM：忧伤】
+    play music "audio/bgm/emo.ogg" fadeout 8.0 fadein 5#【BGM：忧伤】
 
     "向晚无力地靠在门上。"
     show nl sad with dissolve

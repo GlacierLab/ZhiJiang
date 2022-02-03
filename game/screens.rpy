@@ -4,7 +4,6 @@
 
 init offset = -1
 
-
 ################################################################################
 ## 样式
 ################################################################################
@@ -369,8 +368,8 @@ style navigation_button_text is gui_button_text
 style navigation_button:
     size_group "navigation"
     properties gui.button_properties("navigation_button")
-    activate_sound "audio/se/ui click.mp3"
-    hover_sound "audio/se/ui hover.mp3"
+    activate_sound "audio/se/ui click.ogg"
+    hover_sound "audio/se/ui hover.ogg"
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
@@ -510,7 +509,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
         keysym "mousedown_3"
 
         # if main_menu:
-        #     action Return(),Play('sound', 'audio/bgm/zhijiang.wav')
+        #     action Return(),Play('sound', 'audio/bgm/zhijiang.ogg')
         # else:
         action Return()
 
@@ -960,6 +959,7 @@ screen CG:
         ymaximum 500
         scrollbars "vertical"
         mousewheel True
+        draggable True
 
         vpgrid :
             cols 3
@@ -1008,227 +1008,227 @@ init -1 python:
     music_list = (
         {
             "name": "枝江钢琴",
-            "file": "zhijiang.wav",
+            "file": "zhijiang.ogg",
             "author": "信陵陵止",
             'isUnlock': True
         },
         {
             "name": "枝江（Vibraphone ver）",
-            "file": "电颤琴 枝江.mp3",
+            "file": "电颤琴 枝江.ogg",
             "author": "叫我镜大人-"
         },
         {
             "name": "AvvvvA",
-            "file": "第一章医院.mp3",
+            "file": "第一章医院.ogg",
             "author": "kirllanto"
         },
         {
             "name": "Take me with you Miss Diana",
-            "file": "第一章黄昏街道.wav",
+            "file": "第一章黄昏街道.ogg",
             "author": 'kirllanto'
         },
         {
             "name": "Une Zhijiang effrayante",
-            "file": "阴间的枝江.mp3",
+            "file": "阴间的枝江.ogg",
             "author": '米凯尔的坩锅'
         },
         {
             "name": "冰湖上的极光",
-            "file": "emo.mp3",
+            "file": "emo.ogg",
             "author": 'Sansssss'
         },
         {
             "name": "六龙回日",
-            "file": "浩荡磅礴宏伟气氛.mp3",
+            "file": "浩荡磅礴宏伟气氛.ogg",
             "author": 'BreaKalltherules'
         },
         {
             "name": "水母与鲸",
-            "file": "鲸.mp3",
+            "file": "鲸.ogg",
             "author": 'Sansssss'
         },
         {
             "name": "トロンボーンの悲鳴",
-            "file": "普通 悲伤类的抒情1 .mp3",
+            "file": "普通 悲伤类的抒情1 .ogg",
             "author": '叫我镜大人-'
         },
         {
             "name": "danse1",
-            "file": "回忆 伤感.mp3",
+            "file": "回忆 伤感.ogg",
             "author": 'tetsuyaaa'
         },
         {
             "name": "jumping fire",
-            "file": "能说的不多了感觉弦乐完整.mp3",
+            "file": "能说的不多了感觉弦乐完整.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "一夫当关",
-            "file": "第三章重点曲1阶段战斗清场BGM.mp3",
+            "file": "第三章重点曲1阶段战斗清场BGM.ogg",
             "author": 'BreaKalltherules'
         },
         {
             "name": "Kira～镇魂 Reburn A Soul",
-            "file": "第三章重点曲中boos bgm.mp3",
+            "file": "第三章重点曲中boos bgm.ogg",
             "author": 'loop_again'
         },
         {
             "name": "折断的旗帜",
-            "file": "第三章重点曲3阶段悲壮战斗.mp3",
+            "file": "第三章重点曲3阶段悲壮战斗.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "逆天",
-            "file": "有点逆天的可控的日常.mp3",
+            "file": "有点逆天的可控的日常.ogg",
             "author": '涅不拉几的'
         },
         {
             "name": "啼夜月",
-            "file": "悬疑诡异气氛通用BGM2.mp3",
+            "file": "悬疑诡异气氛通用BGM2.ogg",
             "author": 'BreaKalltherules'
         },
         {
             "name": "愁空山",
-            "file": "悬疑诡异气氛通用BGM1.mp3",
+            "file": "悬疑诡异气氛通用BGM1.ogg",
             "author": 'BreaKalltherules'
         },
         {
             "name": "然然嘿嘿然然",
-            "file": "放松 温暖 平静.mp3",
+            "file": "放松 温暖 平静.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "长锥",
-            "file": "诡异.mp3",
+            "file": "诡异.ogg",
             "author": '叫我镜大人-'
         },
         {
             "name": "I don't Dao",
-            "file": "争吵.mp3",
+            "file": "争吵.ogg",
             "author": 'kirllanto'
         },
         {
             "name": "在温柔的夜里",
-            "file": "钢琴1 缓和.mp3",
+            "file": "钢琴1 缓和.ogg",
             "author": 'tetsuyaaa'
         },
         {
             "name": "Close whisper温暖的低语",
-            "file": "缓和弦乐.mp3",
+            "file": "缓和弦乐.ogg",
             "author": '宁远'
         },
         {
             "name": "了转反",
-            "file": "第四章反转.mp3",
+            "file": "第四章反转.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "枝江的日常",
-            "file": "欢快_日常？ 三拍子.mp3",
+            "file": "欢快_日常？ 三拍子.ogg",
             "author": 'tetsuyaaa'
         },
         {
             "name": "反转了！是顶晚人捏",
-            "file": "日常 滑稽？.mp3",
+            "file": "日常 滑稽？.ogg",
             "author": 'tetsuyaaa'
 
         },
         {
             "name": "misty",
-            "file": "悬疑.mp3",
+            "file": "悬疑.ogg",
             "author": 'tetsuyaaa'
         },
         {
             "name": "溺死在枝江的晚风",
-            "file": "伤感双吉他.mp3",
+            "file": "伤感双吉他.ogg",
             "author": '叫我镜大人-'
         },
         {
             "name": "梧桐树下的少女",
-            "file": "抒情双吉他.mp3",
+            "file": "抒情双吉他.ogg",
             "author": '叫我镜大人-'
 
         },
         {
             "name": "枝江（musicbox ver）",
-            "file": "枝江音乐盒.mp3",
+            "file": "枝江音乐盒.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "P0s1tif",
-            "file": "日常（可循环）.mp3",
+            "file": "日常（可循环）.ogg",
             "author": '米凯尔的坩埚'
         },
         {
             "name": "How can I describe you ",
-            "file": "第二章 悲伤回忆.mp3",
+            "file": "第二章 悲伤回忆.ogg",
             "author": 'Kirllanto'
         },
         {
             "name": "Light",
-            "file": "第二章-希望.mp3",
+            "file": "第二章-希望.ogg",
             "author": 'Kirllanto'
         },
         {
             "name": "珈乐是谁",
-            "file": "纷乱 第三章.mp3",
+            "file": "纷乱 第三章.ogg",
             "author": '我也很绝望啊'
         },
         {
             "name": "battle filed",
-            "file": "Battle field可循环.mp3",
+            "file": "Battle field可循环.ogg",
             "author": '伏夏雪人'
         },
         {
             "name": "Slient elegy",
-            "file": "Silent elegy 可循环(1).mp3",
+            "file": "Silent elegy 可循环(1).ogg",
             "author": '伏夏雪人'
         },
         {
             "name": "grow",
-            "file": "kirl老师的旋律发散.mp3",
+            "file": "kirl老师的旋律发散.ogg",
             "author": '啥都想学菜鸟ye'
 
         },
         {
             "name": "雾月",
-            "file": "抒情1.mp3",
+            "file": "抒情1.ogg",
             "author": 'tetsuyaaa'
         },
         {
             "name": "枯萎",
-            "file": "绝望ne改.mp3",
+            "file": "绝望ne改.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "butterflies",
-            "file": "第八章 夜蝶 he hope.mp3",
+            "file": "第八章 夜蝶 he hope.ogg",
             "author": 'tetsuyaaa'
         },
         {
             "name": "Back to the time bring her home",
-            "file": "te_bgm_16bit.wav",
+            "file": "te_bgm_16bit.ogg",
             "author": 'loop_again'
 
         },
         {
             "name": "深潜的告白",
-            "file": "水母之歌水下（阶段一）.mp3",
+            "file": "水母之歌水下（阶段一）.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "/remake",
-            "file": "水母之歌水上（阶段二）.mp3",
+            "file": "水母之歌水上（阶段二）.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "一束追光",
-            "file": "水母之歌庄严（阶段三）.mp3",
+            "file": "水母之歌庄严（阶段三）.ogg",
             "author": '啥都想学菜鸟ye'
         },
         {
             "name": "我所挚爱的一个魂灵",
-            "file": "第十章末 希望.mp3",
+            "file": "第十章末 希望.ogg",
             "author": "tetsuyaaa"
         },
 
@@ -1268,6 +1268,7 @@ screen music:
         yoffset 100
         ymaximum 450
         mousewheel True
+        draggable True
         scrollbars "vertical"
 
 
@@ -1878,82 +1879,4 @@ screen quick_menu():
             textbutton _("菜单") action ShowMenu()
 
 
-style window:
-    variant "small"
-    background "gui/phone/textbox.png"
 
-style radio_button:
-    variant "small"
-    foreground "gui/phone/button/radio_[prefix_]foreground.png"
-
-style check_button:
-    variant "small"
-    foreground "gui/phone/button/check_[prefix_]foreground.png"
-
-style nvl_window:
-    variant "small"
-    background "gui/phone/nvl.png"
-
-style main_menu_frame:
-    variant "small"
-    background "gui/phone/overlay/main_menu.png"
-
-style game_menu_outer_frame:
-    variant "small"
-    background "gui/phone/overlay/game_menu.png"
-
-style game_menu_navigation_frame:
-    variant "small"
-    xsize 340
-
-style game_menu_content_frame:
-    variant "small"
-    top_margin 0
-
-style pref_vbox:
-    variant "small"
-    xsize 400
-
-style bar:
-    variant "small"
-    ysize gui.bar_size
-    left_bar Frame("gui/phone/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
-    right_bar Frame("gui/phone/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
-
-style vbar:
-    variant "small"
-    xsize gui.bar_size
-    top_bar Frame("gui/phone/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
-    bottom_bar Frame("gui/phone/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
-
-style scrollbar:
-    variant "small"
-    ysize gui.scrollbar_size
-    base_bar Frame("gui/phone/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/phone/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-
-style vscrollbar:
-    variant "small"
-    xsize gui.scrollbar_size
-    base_bar Frame("gui/phone/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/phone/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-
-style slider:
-    variant "small"
-    ysize gui.slider_size
-    base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/phone/slider/horizontal_[prefix_]thumb.png"
-
-style vslider:
-    variant "small"
-    xsize gui.slider_size
-    base_bar Frame("gui/phone/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/phone/slider/vertical_[prefix_]thumb.png"
-
-style slider_vbox:
-    variant "small"
-    xsize None
-
-style slider_slider:
-    variant "small"
-    xsize 600

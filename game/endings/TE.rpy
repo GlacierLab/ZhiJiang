@@ -34,7 +34,7 @@ label .te_start:
     $ _skipping = False
 
     window hide
-    play music "audio/bgm/heart0.mp3"
+    play music "audio/bgm/heart0.ogg"
 
     $ renpy.pause(3, hard=True)
 
@@ -42,7 +42,7 @@ label .te_start:
     $ renpy.movie_cutscene("audio/video/（1）开场.webm")
     $ quick_menu = True
 
-    play music "audio/bgm/heart1.mp3"
+    play music "audio/bgm/heart1.ogg"
     label .start_heart:
         menu:
             "珈乐的粉丝名字是"
@@ -60,7 +60,7 @@ label .te_start:
 
     label .jiale_heart:
         $ renpy.movie_cutscene("audio/video/（2）珈乐.webm")
-        play music "audio/bgm/heart2.mp3"
+        play music "audio/bgm/heart2.ogg"
 
         menu:
             "贝拉的粉丝名字是"
@@ -78,8 +78,8 @@ label .te_start:
 
     label .beila_heart:
         $ renpy.movie_cutscene("audio/video/（3）贝拉.webm")
-        play music "audio/bgm/heart3.mp3"
-        show screen top_img('te/1.png')
+        play music "audio/bgm/heart3.ogg"
+        show screen top_img('te/1.webp')
         menu:
             "乃琳的粉丝名字是"
 
@@ -96,8 +96,8 @@ label .te_start:
 
     label .nl_heart:
         $ renpy.movie_cutscene("audio/video/（4）乃琳.webm")
-        play music "audio/bgm/heart4.mp3"
-        show screen top_img('te/2.png')
+        play music "audio/bgm/heart4.ogg"
+        show screen top_img('te/2.webp')
 
         menu:
             "嘉然的粉丝名字是"
@@ -115,8 +115,8 @@ label .te_start:
 
     label .jr_heart:
         $ renpy.movie_cutscene("audio/video/（5）嘉然.webm")
-        play music "audio/bgm/heart5.mp3"
-        show screen top_img('te/3.png')
+        play music "audio/bgm/heart5.ogg"
+        show screen top_img('te/3.webp')
 
         menu:
             "向晚的粉丝名字是"
@@ -166,7 +166,7 @@ screen shooter_main():
     fixed:
         style "shooter"
         add board
-    add "bg.png" at normal_size
+    add "bg.webp" at normal_size
     add date:
         size(261, 100)
         xpos 1018
@@ -178,11 +178,11 @@ style shooter:
     ypos 58
 
 image bg12:
-    "1212.png"
+    "1212.webp"
     size(1280,720)
 
 image bg6:
-    "612.png"
+    "612.webp"
     size(1280,720)
 
 default name = "test"
@@ -205,7 +205,7 @@ label .game:
             $ name = "一个魂"
 
         "A-SOUL现在需要你 [name] 代表一个魂去保护她们了。"
-        "使用方向键或WSAD 操控一个魂进行移动（如果无法操作，关闭输入法，开启大写锁定）"
+        "使用手指操控一个魂进行移动，建议不要在分屏/小窗下操作。"
         menu:
             "你准备好了吗？"
             "是的":
@@ -216,7 +216,7 @@ label .game:
 
         $ quick_menu = False
         window hide
-        play music "audio/bgm/te_bgm_16bit.wav"
+        play music "audio/bgm/te_bgm_16bit.ogg"
         call screen shooter_main
         scene bg6
 
@@ -242,7 +242,7 @@ label .part1:
     if not config.developer:
         hide screen unskip
         $ _skipping = True
-    play music "audio/bgm/水母之歌水下（阶段一）.mp3" fadeout 3.0 fadein 5.0
+    play music "audio/bgm/水母之歌水下（阶段一）.ogg" fadeout 3.0 fadein 5.0
     scene 海底向晚1 with Dissolve(5)
     window show
 
@@ -329,7 +329,7 @@ label .part1:
     "可就在这时，女孩身边显出了白色的光，无数小小的，碗状的水母发着光，托举着脆弱的身躯。"
     
     # 【音效：气泡声】
-    play sound "<from 0 to 8>audio/se/sea_magma.mp3" loop
+    play sound "<from 0 to 8>audio/se/sea_magma.ogg" loop
     "迷离中，一股温意传来，水面正向她靠近。"
     stop sound fadeout 2
     # 【缓慢闪白转场】
@@ -340,9 +340,9 @@ label .part2:
     # "此处应是出水音效"
     # bgm  钢琴 水母歌
     # 场景 未知存在
-    play sound "audio/se/出水.mp3"
+    play sound "audio/se/出水.ogg"
     scene 水面空间 with Dissolve(3)
-    play music "audio/bgm/水母之歌水上（阶段二）.mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/水母之歌水上（阶段二）.ogg" fadeout 4.0 fadein 4.0
 
     "最终，少女浮出水面。身处虚空的海洋之中。"
         
@@ -364,7 +364,7 @@ label .part2:
 
     # "此处应是强光炫目"
     # 场景 沙发
-    play sound "audio/se/voice_of_light.mp3"
+    play sound "audio/se/voice_of_light.ogg"
 
     scene 水面空间早 with Fade(.75, 0.5, 0.1, color="#fff")
     show xw calm at r3
@@ -721,7 +721,7 @@ label .part2:
     # 【BGM：水母之歌庄严版，但是进入时要沉闷一些】
 
     # 【场景换一个远视图，场景不变，拉远一些】
-    play music "audio/bgm/水母之歌庄严（阶段三）.mp3" fadeout 3.0 fadein 1.0
+    play music "audio/bgm/水母之歌庄严（阶段三）.ogg" fadeout 3.0 fadein 1.0
 
     jr_h "很久很久以前，在王国边陲的小村落里，有一个可爱的小女孩。她生来就无拘无束，她爱在星空下奔跑，追逐日与夜的分割线。在自己的努力下，她努力练习舞蹈，为的是有一天能够向其他人分享自己的舞步。"
 
@@ -872,7 +872,7 @@ label .part3:
 
     $ quick_menu = False
 
-    play music "audio/bgm/第十章末 希望.mp3" fadein 9.0
+    play music "audio/bgm/第十章末 希望.ogg" fadein 9.0
     $ renpy.pause(7, hard=True)
 
     #【BGM-温暖，希望，却又有些曲折的变奏。示例给出：Searching Where The Sea Drowned The Sun】
@@ -1007,7 +1007,7 @@ label .part4:
 
     "【日记】" "明天就是A-SOUL的演唱会了，贝拉，乃琳，珈乐都在紧张的准备着，练习一直到了深夜。"
  
-    queue sound ["audio/se/翻页3.mp3"]  
+    queue sound ["audio/se/翻页3.ogg"]  
 
     "【日记】" "现在我每天都会早起一些，给大家准备泡面。"
     
@@ -1026,7 +1026,7 @@ label .part4:
 
     "【日记】" "在一个魂们和我们的一同努力下，A-SOUL企划变得越来越好，经历了这么多，我却不知道从何写起……"
 
-    queue sound ["audio/se/翻页3.mp3"]  
+    queue sound ["audio/se/翻页3.ogg"]  
 
     "【日记】" "时间不早啦，该上床睡觉了，今天睡觉前跟拉姐她们道了晚安，我去然然房间时，她已经睡着了。"
     
@@ -1050,7 +1050,7 @@ label .part4:
     #【场景消失，黑屏】
 
     "【日记】" "晚安啦。"
-    play sound "audio/se/翻页3.mp3" 
+    play sound "audio/se/翻页3.ogg" 
 
     #【翻页声】 
     scene black with dissolve

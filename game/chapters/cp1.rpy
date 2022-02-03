@@ -29,7 +29,7 @@ label cp1_start:
 label .part1:
     # 【场景：枝江医院走廊-1】
     # 【bgm：平淡且忧郁】
-    play music "audio/bgm/第一章医院.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/第一章医院.ogg" fadeout 5.0 fadein 4.0
     scene 医院走廊1 with dissolve
     window show
 
@@ -73,7 +73,7 @@ label .part1:
     "贝拉忍着抽泣，点了点头。"
 
     # 【音效：高跟鞋走路】
-    play sound "audio/se/高跟鞋走路.wav" fadein 3.0
+    play sound "audio/se/高跟鞋走路.ogg" fadein 3.0
 
     "一串踢踢踏踏的脚步声响起，乃琳缓步向贝拉和珈乐走来。"
     stop sound
@@ -147,7 +147,7 @@ label .part1:
     bl "（叹气）我会重新认真考虑的。"
 
     # 【音效：开门声】
-    play sound "audio/se/室内关门.mp3"
+    play sound "audio/se/室内关门.ogg"
 
     "开门声打破了走廊尴尬的气氛，向晚一脸倦色地从病房走出"
 
@@ -275,9 +275,9 @@ label .part2:
 
     # 【背景：枝江街景】
     # 【音效： 街头人流杂音】
-    play music "audio/bgm/第一章黄昏街道.wav" fadeout 5.0 fadein 8.0
+    play music "audio/bgm/第一章黄昏街道.ogg" fadeout 5.0 fadein 8.0
     scene 枝江街头1黄昏 with slow_fade
-    play sound "audio/se/shopping_malls1.mp3"
+    play sound "audio/se/shopping_malls1.ogg"
     "下午五点，夕阳已经把这座城市的影子拖得很长，此时，枝江的街道便开始拥挤起来了。"
     "上班族夹着公文包，疲惫地耷拉着脸，从高高低低的建筑物里涌出来，然后再像涨潮一样漫开去。"
     "顷刻间，大小纵横的街道哗哗地满是车流与人潮，这是白日将尽的一次热闹和高潮。"
@@ -391,7 +391,7 @@ label .part3:
     # 【这一段是xw走进枝江大厦坐电梯前往七楼见阿草的内容。】
 
     # 【CG： xw站在月华大楼前】
-    # play music "audio/bgm/悬疑诡异气氛通用BGM1.mp3" fadeout 5.0 fadein 5.0
+    # play music "audio/bgm/悬疑诡异气氛通用BGM1.ogg" fadeout 5.0 fadein 5.0
     scene 枝江大厦外 夜 with slow_fade
     show xw unconcerned frown at l2 with dissolve
 
@@ -414,7 +414,7 @@ label .part3:
     "向晚疲惫地皱着眉头，一路小跑着进了直达七楼的电梯。"
 
     # 【音效： 电梯开关门声效】
-    play sound "audio/se/电梯开门.wav"
+    play sound "audio/se/电梯开门.ogg"
     scene 电梯内部 
     show xw unconcerned frown 
     with dissolve
@@ -424,7 +424,7 @@ label .part3:
     "当她看着电梯上13楼到顶层的按钮上密密麻麻的红叉时，她总是心悸的抬头向上，仿佛深黑的天井有着某种深邃而不可告人的秘密。"
 
     # 【音效： 电梯开关门声效】
-    play sound "audio/se/电梯开门.wav"
+    play sound "audio/se/电梯开门.ogg"
     scene 电梯井
     show xw unconcerned frown at l2
 
@@ -442,11 +442,11 @@ label .part3:
 label .part4:
     #【向晚（时间意义上的） 阿草办公室】
     #【BGM：沉静的音乐（可参考：Clear Water 或 624 Part 2）。】
-    # play music "audio/bgm/放松 温暖 平静.mp3" fadeout 1.0 fadein 3.0
+    # play music "audio/bgm/放松 温暖 平静.ogg" fadeout 1.0 fadein 3.0
 
     "向晚走到阿草办公室门口，几个同事恰好拖着几个大纸箱走出办公室，她往里瞟了一眼，纸箱里无非是一些平日的办公用品，但有样东西极为眼熟——贝拉的浅绿色美瞳盒。"
     "向晚深吸一口气，敲了敲虚掩着的门。"
-    play sound "audio/se/清脆的敲门声.mp3"
+    play sound "audio/se/清脆的敲门声.ogg"
     ac "请进。"
 
     # 【阿草立绘出现】
@@ -459,7 +459,7 @@ label .part4:
     show ac normal with dissolve
     ac "你总算来了，嘉然情况怎么样？到底是出了什么问题？"
 
-    play music "audio/bgm/悬疑.mp3" fadein 5.0 fadeout 5.0
+    play music "audio/bgm/悬疑.ogg" fadein 5.0 fadeout 5.0
     #【向晚立绘出现】
     show ac normal with dissolve
     show xw anxiety with dissolve
@@ -581,7 +581,7 @@ label .part4:
     xw"你已经对她造成刺激了！"
     xw"抱歉，恕！难！从！命！"
     hide xw with easeoutleft
-    play sound "audio/se/砰的一声关门.mp3"
+    play sound "audio/se/砰的一声关门.ogg"
     "向晚起身头也不回地走出，砰的一下关上了门。"
     show ac proud at center with easeinright
     ac "...."

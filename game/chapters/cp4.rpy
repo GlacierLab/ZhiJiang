@@ -1,18 +1,18 @@
 init python:
-    declare('zjjt','bg/2 一条人很多的街道.png','p')
-    declare('枝江市广景','bg/枝江市广景.png','p')
-    declare('zjsbw','bg/5 8枝江市广景（傍晚）.png','p')
-    declare('zjssy','bg/5 8枝江市广景（深夜）.png','p')
-    declare('jlsfx','bg/4 珈蓝寺(废墟).png','p')
-    declare('zjbs','bg/4 枝江边上.png','p')
-    declare('lyy','bg/4 疗养院.png','p')
-    declare('ylqt','bg/1 4枝江大厦一楼前台.png','p')
-    declare('dtj','bg/4 电梯井.png','p')
-    declare('acbgs','bg/5 阿草办公室.png','p')
-    declare('kt','bg/2 7 客厅.png','p')
-    declare('zjdswj','bg/1 4 5枝江大厦外景(夜晚).png','p')
-    declare('xsyw','bg/4 心神演武状态.png','p')
-    declare('dtnb','bg/1 82电梯内部.png','p')
+    declare('zjjt','bg/2 一条人很多的街道.webp','p')
+    declare('枝江市广景','bg/枝江市广景.webp','p')
+    declare('zjsbw','bg/5 8枝江市广景（傍晚）.webp','p')
+    declare('zjssy','bg/5 8枝江市广景（深夜）.webp','p')
+    declare('jlsfx','bg/4 珈蓝寺(废墟).webp','p')
+    declare('zjbs','bg/4 枝江边上.webp','p')
+    declare('lyy','bg/4 疗养院.webp','p')
+    declare('ylqt','bg/1 4枝江大厦一楼前台.webp','p')
+    declare('dtj','bg/4 电梯井.webp','p')
+    declare('acbgs','bg/5 阿草办公室.webp','p')
+    declare('kt','bg/2 7 客厅.webp','p')
+    declare('zjdswj','bg/1 4 5枝江大厦外景(夜晚).webp','p')
+    declare('xsyw','bg/4 心神演武状态.webp','p')
+    declare('dtnb','bg/1 82电梯内部.webp','p')
     
 
     
@@ -49,7 +49,7 @@ label cp4_start:
 label .part1:
     #1、夜晚 -一条人很多的街道 日常音乐
     #拿手机拨打电话
-    play music "audio/bgm/维瓦尔第 夏第一乐章.mp3" fadeout 4.0 fadein 5.0
+    play music "audio/bgm/维瓦尔第 夏第一乐章.ogg" fadeout 4.0 fadein 5.0
     scene 枝江街道夜晚
     show bl phone at l1
     with fade
@@ -61,7 +61,7 @@ label .part1:
     "向晚的声音从手机的另一端传了出来，那是一声急迫的呼喊声，要她别挂电话。"
     bl"别报警，晚晚。我现在就在枝江大厦下面那条街上，别来找我。"
     #【电话挂断的嘟嘟嘟声】
-    play sound "<from 0 to 3>audio/se/1电话挂断的嘟嘟声.mp3" fadeout 1.0
+    play sound "<from 0 to 3>audio/se/1电话挂断的嘟嘟声.ogg" fadeout 1.0
     #-浅笑贝拉：
     show bl soft at l1 with dissolve
     "贝拉挂断了电话，按住了电源键。"
@@ -85,7 +85,7 @@ label .part1:
     "贝拉不知道那些到现在还没有下班的社畜会不会也会偷偷看着她们的歌舞表演以此打发时间。"
     "但这与现在的她无关，她难以等待。"
     #【血流与心跳声】
-    play sound "<from 0 to 3>audio/se/血流声.mp3" fadeout 1.0
+    play sound "<from 0 to 3>audio/se/血流声.ogg" fadeout 1.0
 
     scene 枝江街道夜晚
     show bl pissed at l1
@@ -125,7 +125,7 @@ label .part3:
     #贝拉（双眼无神没有焦距）
     show bl daze at l1
     with fade 
-    play music "audio/bgm/浩荡磅礴宏伟气氛.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/浩荡磅礴宏伟气氛.ogg" fadeout 3.0 fadein 4.0
 
     "无数虚影与人形在她的脑海中疯狂演练着招式，有人形双掌翻涌，有人形释放着气劲，有人形飞檐走壁，有人形演练步法。"
     "那些出拳推掌的人形正在不断交融着，合成某一个更加清晰更加有色彩的人形。"
@@ -141,7 +141,7 @@ label .part3:
     #4、夜间 枝江大厦近景 慵懒的音乐
 label .part4:
 
-    play music "audio/bgm/有点逆天的可控的日常.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/有点逆天的可控的日常.ogg" fadeout 3.0 fadein 4.0
 
     scene zjdswj
     show bl angery sweat at l1
@@ -241,7 +241,7 @@ label .part8:
 label .part9:
     scene jlsfx
     with fade
-    play music "audio/bgm/能说的不多了感觉弦乐完整.mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/能说的不多了感觉弦乐完整.ogg" fadeout 4.0 fadein 4.0
 
     "与珈乐失散，就好像失去了她心里的另一座珈蓝寺，她做了好多梦，好多与珈乐有关与过去有关的梦。"
     "她看见珈蓝寺被几台冒着黑烟的推土机移平、"
@@ -251,7 +251,7 @@ label .part9:
     "她在夜半惊醒，那些压抑的悲伤冲垮了情绪的堤坝，然后她再也无法睡去。"
     "因此，她从柜子里面翻出来了那根被布囊包裹着的铁棍，让那根比原本的自己还要高上几个头的铁棍伴在自己的身旁酣睡。"
     #（狮子的怒吼声与屏幕震颤）
-    #play sound "audio/se/.mp3"
+    #play sound "audio/se/.ogg"
 
     show bl angery at l1 with dissolve
     "而现在，她真正地醒了过来，像是一头苏醒的狮子。" with sshake
@@ -266,16 +266,16 @@ label .part10:
     hide screen memory_filter
     with fade
     #（破空声）
-    # play sound "audio/se/2劲风或破空声swing2.mp3"
+    # play sound "audio/se/2劲风或破空声swing2.ogg"
 
     "至此，她动了。"
-    play sound "audio/se/2劲风或破空声swing2.mp3"
+    play sound "audio/se/2劲风或破空声swing2.ogg"
 
     show bl angery at rc with easeinleft
 
 
     "当门前的那几盏路灯昏昏暗去时，一道破空之声自枝江大厦正门口旁的那扇大落地窗处响了起来。"
-    play sound "audio/se/玻璃破碎声.mp3"
+    play sound "audio/se/玻璃破碎声.ogg"
     
     scene ylqt 
     with Fade(.25, 0.25, 0.1, color="#fff")
@@ -294,7 +294,7 @@ label .part10:
     "几个腰间挎着电棍的保安刷着手机，他们自然听到了那面落地玻璃窗破碎的声音。"
     "他们从没想过有人会这样光明正大地打入枝江大厦，还是个十几岁的女孩，真当这楼里面没有安保了？"
     #（挥手破空声）
-    play sound "audio/se/2劲风或破空声swish1.mp3"
+    play sound "audio/se/2劲风或破空声swish1.ogg"
     "他们操着手上的电棍和防爆盾牌打算冲出保安室将那个造成破坏的恶徒按在当场就地正法，却被那个平时和和气气拿着保温壶的保安队长给伸手拦住了。"
 
     jump .part11
@@ -321,7 +321,7 @@ label .part11:
     "【保安】" "那这样我们不就铁定会被辞退了？连个小女娃子都打不过？"
     #旁白：
     #（破风声）
-    play sound "audio/se/2劲风或破空声swing1.mp3"
+    play sound "audio/se/2劲风或破空声swing1.ogg"
     "一个愣头青傻傻地拿着塑料制的防爆盾挥动了几下。"
     #保安队长剪影：
     "【保安队长】" "傻帽，好心提点你们几句还不听，你们当这枝江大厦养我们几号人是真为了维持安全？"
@@ -392,8 +392,8 @@ label .part11:
 label .part12:
     #旁白：
     #（屏幕颤动和破风声）
-    play music "audio/bgm/第三章重点曲1阶段战斗清场BGM.mp3" fadeout 4.0 fadein 4.0
-    play sound "audio/se/2劲风或破空声swing1.mp3"
+    play music "audio/bgm/第三章重点曲1阶段战斗清场BGM.ogg" fadeout 4.0 fadein 4.0
+    play sound "audio/se/2劲风或破空声swing1.ogg"
    
     "她终于动了，似疾电，如流火。" with sshake
     #（屏幕震颤）
@@ -401,14 +401,14 @@ label .part12:
     "她狂吼一声，淑女的风度与芭蕾舞者的美感全然消失。"
     "贝拉全身猛地发劲，血气上涌，整个身体都发出了吱呀咯拉的声音，一步踏地飞射如同仙鹤展翅，一步再踩在一面防爆盾上，直接跳到了前台之上。"
     #（破碎声）
-    play sound "audio/se/玻璃破碎.mp3"
+    play sound "audio/se/玻璃破碎.ogg"
     "那是硬物破碎的声音。"
     #立绘切换 
     show bl angery with dissolve
-    play sound "audio/se/回旋踢.mp3"
+    play sound "audio/se/回旋踢.ogg"
     #贝拉（怒容）
     "贝拉的一脚居然直接将一面高复合塑料防爆盾给踩得暴裂开来，那力道甚至渗透到了黑色的手套当中，震得那保安虎口一阵发疼。"
-    play sound "audio/se/heavy_punch1.mp3"
+    play sound "audio/se/heavy_punch1.ogg"
     "暗红色的血自手套当中流滴而出，单是这通过盾牌传导而来的力度就直接震碎了那个一米八九十公斤的壮汉的虎口，还让他破了皮流了血。"
     "站在前台办公桌上的贝拉如同一尊挺立着的阿罗汉，无人敢近。"
     "一个保安转头看向另外几个同事，互相暗暗点头示意，那个虎口被破的家伙退步而出，而其他人形成了一个针对贝拉的包围圈。"
@@ -421,10 +421,10 @@ label .part12:
     show bl serious:
         ease 0.5 yoffset 150
     "她俯下身子避开了袭击后猛力一动，左腿怒伸而出。" 
-    play sound "audio/se/回旋踢.mp3"
+    play sound "audio/se/回旋踢.ogg"
     "她的裙摆随劲风发硬，扫堂腿一甩将那些保安连人带盾与棍扫飞了出去。" with sshake
     #【砸在地板上的声音】
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
 
     show bl serious:
         ease 0.5 yoffset 0
@@ -438,7 +438,7 @@ label .part12:
     #旁白：贝拉【普通】
     #【加速度线】
     "那几个站起身的保安持着电棍往前平直地挥砸而来，而贝拉的三指挟带如浪涛的气势伸出，她更快。"
-    play sound "audio/se/heavy_punch2.mp3"
+    play sound "audio/se/heavy_punch2.ogg"
     show bl serious at r2 with easeinleft
 
     "她直接捏碎了一个近身之人的喉处护甲，又通过三只手指发劲猛地擒住了一个保安将其摔砸出去。"
@@ -454,7 +454,7 @@ label .part12:
     #旁白：
     "那只是一个才毕业的兼职大学生，早就被贝拉她给吓破了胆子。"
     #（破空声和心跳加速的声音）
-    play sound "<from 0 to 3>audio/se/心跳.mp3"
+    play sound "<from 0 to 3>audio/se/心跳.ogg"
     "他微微颤颤地站在那边，浑身直打哆嗦，但他还是举着那根通电的电棍比划了两下，摆在自己的面前给自己增添勇气。"
     stop sound fadeout 1.0
     "贝拉一句话都没有对他说，只是单纯地从他的身旁路过。"
@@ -468,7 +468,7 @@ label .part12:
     #13、夜间 电梯口 普通BGM
 label .part13:
     scene dtj
-    play music "audio/bgm/第三章重点曲中boos bgm.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/第三章重点曲中boos bgm.ogg" fadeout 3.0 fadein 4.0
 
     show bl serious at r2:
         xoffset 600
@@ -489,7 +489,7 @@ label .part13:
     #BGM转战斗
     "那老者又压低了帽檐，不愿与那道灼目的瞳光对视。"
     #（屏幕一亮一颤，最好能有刀剑或者金属对撞的声音）
-    play sound "<from 0 to 1>audio/se/sword_battle_loop.mp3"
+    play sound "<from 0 to 1>audio/se/sword_battle_loop.ogg"
     with sshake
     "那初生牛犊眼中的神采就像是一道暴雷，凌厉的目光就像是两根长刀一样抵在了那老人的眼前，他不愿多看怕自己的气血因此而浮动。"
     #保安队长剪影：
@@ -507,9 +507,9 @@ label .part13:
     bl "（怎地会？他是谁？）"
     "那老大爷一只腿腿微微抬起而一只腿向下沉震，脚掌蹬杀而来的动作似慢实快。"
 
-    # play sound "audio/se/回旋踢.mp3"
+    # play sound "audio/se/回旋踢.ogg"
 
-    play sound "audio/se/沉默爆炸2.mp3"
+    play sound "audio/se/沉默爆炸2.ogg"
 
     scene 贝拉战斗2
     with sshake
@@ -527,7 +527,7 @@ label .part13:
     "贝拉有些惊讶，这次对击之下，她发现这对手确实有把她缠在这里的功夫。"
     #贝拉（怒容）：
     show bl angery with dissolve
-    play sound "<from 3 to 6>audio/se/吸气声.mp3" fadeout 1.0
+    play sound "<from 3 to 6>audio/se/吸气声.ogg" fadeout 1.0
     bl"阿草，你好卑鄙！"
 
     "【保安队长】" "珈蓝寺的孤女，人可是要吃饭的。不然那珈蓝寺是怎么倒的？还不是阻了这偶像大世的路咯。"
@@ -540,7 +540,7 @@ label .part13:
 
     #14、黄昏 珈蓝寺（废墟） 悲伤BGM
 label .part14:
-    play music "audio/bgm/普通 悲伤类的抒情1 .mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/普通 悲伤类的抒情1 .ogg" fadeout 4.0 fadein 4.0
 
     scene jlsfx
     show bl serious
@@ -575,7 +575,7 @@ label .part15:
     "【保安队长】" "寺外面那个开酒铺子的，记不记得那几行字？"
     #旁白：
     #（几声脚步声）
-    #play sound "audio/se/.mp3"
+    #play sound "audio/se/.ogg"
     "那中年人几步外点，绕了一个身位。"
     
     "他脚步向下一震，几块砖石飞溅起来，他的脚掌踩出了数十厘米的裂痕。" with sshake
@@ -583,14 +583,14 @@ label .part15:
     "蓝白色的电弧闪动，碎石飞溅。"
     #贝拉（拿棍布包裹着）：
     show bl serious with dissolve
-    play sound "<from 0 to 3>audio/se/狂风声自然.mp3" fadeout 1.0
+    play sound "<from 0 to 3>audio/se/狂风声自然.ogg" fadeout 1.0
     "而贝拉却像是一只轻盈的燕子一样将身后的布囊立于地面，借着这一米长的杆子为支点往上一跳，牢牢地用眼睛锁定了那中年人的移动与步伐。"
     #旁白：
     "贝拉只是撑了小小一刻便从棍头落了下来，就像是一只翩翩起舞的蝴蝶缓缓落下。"
     #（呼啸风声） 
     "那人再次拉步向前，手里面抓着一个防暴头盔就像是端着一碗劣酒一样往前撒泼过来。"
     #（鞭子抽打破空声）
-    queue sound ["audio/se/2劲风或破空声swish1.mp3", "audio/se/heavy_punch1.mp3"]
+    queue sound ["audio/se/2劲风或破空声swish1.ogg", "audio/se/heavy_punch1.ogg"]
     "贝拉看都不看便左手一横手腕一甩，手臂如鞭将那头盔挥打了出去，又一膝顶着将身后的布囊怒撞向那中年人的腹上软处。"
     "那中年人侧滚而去，而贝拉终于想起来这人究竟是谁。"
     
@@ -637,7 +637,7 @@ label .part16:
 
     #16 夜间 电梯口 激烈战斗BGM
 label .part17:
-    play music "audio/bgm/第三章重点曲中boos bgm.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/第三章重点曲中boos bgm.ogg" fadeout 3.0 fadein 3.0
 
     scene dtj
     show baoan at l2
@@ -646,9 +646,9 @@ label .part17:
     hide screen memory_filter
     with fade
 
-    # play music "audio/bgm/第三章重点曲中boos bgm.mp3" fadeout 3.0 fadein 4.0
+    # play music "audio/bgm/第三章重点曲中boos bgm.ogg" fadeout 3.0 fadein 4.0
 
-    play sound "audio/se/2劲风或破空声swing2.mp3"
+    play sound "audio/se/2劲风或破空声swing2.ogg"
     #旁白：
     #贝拉立绘【紧张】亮起 保安队长剪影亮起
     #show at r2
@@ -661,7 +661,7 @@ label .part17:
     bl"方丈说你在红尘炼心，万缘放下...我看不尽然。"
  
     "那保安队长带着无可匹敌的气势进步一踏，眨眼之间就逼近了贝拉的怀里。他两手齐出一式合掌轰击而出，噼里啪啦的如同一串鞭炮在这破风声中响起。"
-    play sound "<from 0 to 3>audio/se/沉默爆炸2.mp3"
+    play sound "<from 0 to 3>audio/se/沉默爆炸2.ogg"
     #（屏幕震颤然后一片黑影遮住小半屏幕）
     
     "风压压到了贝拉的面前，遮盖小半视野的黑影自他双手而来，贝拉一膝横抬起来，直接断了那两手推击之威。" with sshake
@@ -669,14 +669,14 @@ label .part17:
     "【保安队长】" "呵呵，禁武，禁武，禁了个什么武。"
     #旁白：
     #（沉重踏步声一声）
-    play sound "audio/se/iron_door1_C.mp3"
+    play sound "audio/se/iron_door1_C.ogg"
     #保安队长剪影：
     "【保安队长】" "全是骗子，你们是骗子，他们也是骗子。什么守护秩序维护和平，什么让枝江市再次伟大，全是胡扯。"
     #保安队长剪影 贝拉【惊讶】
     show baoan at l2 with dissolve
     show bl shock with dissolve
     #【能不能让他的剪影震颤一下，然后两道劲风声】
-    play sound "audio/se/2劲风或破空声swish1_2.mp3"
+    play sound "audio/se/2劲风或破空声swish1_2.ogg"
     "那中年人再次拧腰侧身顶了上去，双手自肋下直穿过去要点杀贝拉，那手掌如刀身如枪，似乎要把自己的愤恨全盘泄出。"
 
     "但这还不是杀招，那保安队长脚上一弯一拐，阴恻恻地袭了过去。"
@@ -685,7 +685,7 @@ label .part17:
     with fade
     "但贝拉并没有吃到这一击，她并没有用珈蓝寺里面的身法与卸力法，而是刚猛地迎着那袭杀正面对上。"
     "她即使身为身体先天柔弱的女性也没有舍弃那可谓是动的极端，那究极刚猛的大力...也正因此，她的腰才会受伤。"
-    play sound "audio/se/沉默爆炸2.mp3"
+    play sound "audio/se/沉默爆炸2.ogg"
 
     scene 贝拉战斗2
     with sshake
@@ -695,14 +695,14 @@ label .part17:
     show baoan at l2
     show bl angery at r2
     with fade
-    play sound "audio/se/碰撞音效14697].mp3"
+    play sound "audio/se/碰撞音效14697].ogg"
     "这一往无前的一拳将那中年人给直接凌空打飞出去，将那中年人一拳给震在了一扇电梯门上，印出了一道人形轮廓久久不得下来。"
 
     jump .part18
 
     #17 夜间 电梯口（破坏） 悲伤BGM
 label .part18:
-    play music "audio/bgm/悬疑.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/悬疑.ogg" fadeout 3.0 fadein 4.0
     #贝拉（惊讶）：
     show bl shock with dissolve
     bl"禁武...是什么意思？"
@@ -778,7 +778,7 @@ label .part18:
     show screen memory_filter
     with fade
     #保安剪影：（碗破碎声）
-    # play sound "audio/se/玻璃破碎.mp3"
+    # play sound "audio/se/玻璃破碎.ogg"
     "【保安队长】" "在这禁武令的最后一步，我和那个背着手穿着玩偶服的怪人站在一起，"
     "【保安队长】" "那晚的月色很美，我端着一碗酒将其一饮而尽，然后砸碎了那只黄土碗。"
     "【保安队长】" "挑战珈蓝寺的大武僧，然后解甲归田。这是我们约好的禁武令的最后一步。"
@@ -797,7 +797,7 @@ label .part18:
 
     #19 夜间 电梯口（破坏） 悲伤BGM
 label .part19:
-    play music "audio/bgm/kirl老师的旋律发散.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/kirl老师的旋律发散.ogg" fadeout 3.0 fadein 4.0
 
     scene dtj
     #贝拉（悲伤）立绘和保安队长剪影
@@ -836,7 +836,7 @@ label .part19:
 
     "电梯中，贝拉靠着电梯的一面，而中年人双手护肩。"
     #（火焰被拖拽着的破空声或者是心跳声，还有电梯机械运转的声音，屏幕从电梯口切换成外景，屏幕由暗转亮，可以适当加亮电梯部分。）
-    play sound "<from 2 to 5>audio/se/电梯运行.mp3" fadeout 1.0
+    play sound "<from 2 to 5>audio/se/电梯运行.ogg" fadeout 1.0
 
     "两团冲天的火焰在二人之间燃烧着，沿着电梯上行的轨道冲上了天穹。"
 
@@ -844,16 +844,16 @@ label .part19:
 
     #20 夜间 阿草办公室 激昂战斗BGM
 label .part21:
-    play music "audio/bgm/第三章重点曲3阶段悲壮战斗.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/第三章重点曲3阶段悲壮战斗.ogg" fadeout 3.0 fadein 4.0
     #【热浪声】
-    play sound "<from 2 to 5>audio/se/电梯开门.mp3" fadeout 1.0
+    play sound "<from 2 to 5>audio/se/电梯开门.ogg" fadeout 1.0
     "“叮”的一声，电梯抵达了能抵达的最高层。"
     "电梯门打开，灼热的血气与威势让空气的温度都好似升高了几度，"
 
 
     "电梯散发着灼人的热气，贝拉和保安队长各自握着自己的武器，剑拔弩张。"
     #（破空声）
-    play sound "audio/se/2劲风或破空声swing2.mp3"
+    play sound "audio/se/2劲风或破空声swing2.ogg"
     hide bl
     "两人在电梯门打开的那一瞬间闪现不见，宛如鬼魅。"
     scene acbgs
@@ -905,7 +905,7 @@ label .part21:
     "阿草却还是双手背后一动不动，他没有提拳，没有吸气，整个人淡然地站在那里。"
     #（BGM切换成诡异的哈人的...如果有。）
 
-    play music "audio/bgm/危机1.mp3" fadeout 3.0 fadein 1.0
+    play music "audio/bgm/危机1.ogg" fadeout 3.0 fadein 1.0
     #贝拉（惊讶）：
     show bl shock with dissolve
     bl"那是......什么？"
@@ -913,7 +913,7 @@ label .part21:
     "令人难以理解的一幕发生了，这是完全超越了物理定律的情况。"
     "他突击的过程在半空中被人停止了，他就像是被光线上无法探寻的巨人用手给捏住了一般。"
     #（屏幕震颤嘎啦作响）
-    play sound "<from 0 to 3>audio/se/嘎吱作响.mp3"
+    play sound "<from 0 to 3>audio/se/嘎吱作响.ogg"
     with sshake
     "他的肋骨吱嘎作响，他的眼球激凹欲出，他的武功已经练到了这种地步，却还是无法挣脱这无形的大手。"
     #（血污屏幕画面）
@@ -925,7 +925,7 @@ label .part21:
     #旁白：
     #（屏幕震颤）
     
-    play sound "audio/se/碰撞音效14697].mp3"
+    play sound "audio/se/碰撞音效14697].ogg"
     "阿草猛地将其往地板上一砸，贝拉稍微有些站不稳了，被砸的那块地板也微微开裂。" with sshake
     #阿草（普通）：
     show ac happy  with dissolve
@@ -936,7 +936,7 @@ label .part21:
     #旁白：
     #【破风声】
     #贝拉【持棍】
-    play sound "audio/se/2劲风或破空声swing2.mp3"
+    play sound "audio/se/2劲风或破空声swing2.ogg"
     "贝拉将布囊抖开，两根棍子合成一根一米八长的大杆气势逼人。"
     "她的武艺确实可谓是通神。"
     "但在这非现实的超自然力量下，站在人类巅峰的她依旧落败了。"
@@ -969,12 +969,12 @@ label .part21:
             ease 3 xoffset 0
 
         "阿草的步子很沉闷，地板的石料被无形之手擦到时碎裂的声音清晰可闻，那是自己的错觉吗？阿草觉得贝拉的眼中出现了另外一种感情。"
-        play sound "audio/se/heavy_punch1.mp3"
+        play sound "audio/se/heavy_punch1.ogg"
         "一扇电梯门被无形之手打穿，夜风怒号，贝拉的眼神有些飘忽。"
         #【风声】
-        play sound "<from 0 to 3>audio/se/狂风声自然.mp3" fadeout 1.0
+        play sound "<from 0 to 3>audio/se/狂风声自然.ogg" fadeout 1.0
         "那只无形之手随之而来，阿草已经知道了贝拉的计划...那台电梯的优先级太高，阿草甚至都不能关闭这台秘密电梯。"
-        play sound "audio/se/沉默爆炸声音.mp3"
+        play sound "audio/se/沉默爆炸声音.ogg"
         show bl serious:
             ease 0.5 xoffset 300
 
@@ -986,7 +986,7 @@ label .part21:
         show bl serious
         with dissolve
         bl "阿草！"
-        play sound "<from 2 to 5>audio/se/电梯运行.mp3" fadeout 1.0
+        play sound "<from 2 to 5>audio/se/电梯运行.ogg" fadeout 1.0
 
         "她按下了那个按键，又捡起了地上的一块砖石将其骤然甩出。"
 
@@ -1000,7 +1000,7 @@ label .part21:
     #22 夜间 A-SOUL宿舍 舒缓转沉重BGM
     label .part22:
     
-        play music "audio/bgm/日常（可循环）.mp3" fadeout 3.0 fadein 4.0
+        play music "audio/bgm/日常（可循环）.ogg" fadeout 3.0 fadein 4.0
 
         scene 客厅熄灯 
         show xw worried at l1

@@ -20,7 +20,7 @@ label cp3_start:
     hide screen saying with Dissolve(1)
 
     #BGM【忧伤】
-    play music "audio/bgm/第二章 悲伤回忆.mp3" fadein 2.0
+    play music "audio/bgm/第二章 悲伤回忆.ogg" fadein 2.0
     #! 回忆开始：
 
     scene  练舞室 
@@ -307,7 +307,7 @@ label cp3_branch1:
     show ac normal at l2 
     with quick_fade
     hide screen memory_filter 
-    play music "audio/bgm/争吵.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/争吵.ogg" fadeout 5.0 fadein 4.0
 
     jl "(让我...再感性一次吧。)"
 
@@ -473,7 +473,7 @@ label cp3_branch1:
     ac "珈乐，你比我想象的要聪明很多，我应该给你什么奖励才好呢？"
     jl "奖励？你在说什么，你已经犯法了！"
     "咔！咔咔！"
-    play sound "audio/se/iron_door2_O.mp3"
+    play sound "audio/se/iron_door2_O.ogg"
     "珈乐后退几步，想要打开门跑出去，然而徒劳的转动了几次把手后她绝望的发现，不知何时房门已经被反锁上了。"
     stop sound
 
@@ -488,7 +488,7 @@ label cp3_branch1:
     "珈乐闭上眼睛，从口袋里摸出随身携带的防狼电击器向前猛捅过去。"
     #【黑屏】【音效：电弧声】
     scene black with fade
-    play sound "/audio/se/电流声2.wav"
+    play sound "/audio/se/电流声2.ogg"
     "滋啦——！"
     stop sound
 
@@ -505,14 +505,14 @@ label cp3_branch1:
     "能轻松让成年男子失去反抗能力的电流在阿草身上游走着，却无法伤害它分毫。"
     "啪嗒——"
     "它的身体没有任何动作，可珈乐却感觉身体被从四面八方挤压住了，吃痛之下，电击器也掉落在了地上。"
-    play sound "/audio/se/金属爆炸2.mp3"
+    play sound "/audio/se/金属爆炸2.ogg"
 
     "轰隆隆——" with sshake
     #【屏幕晃动】
     
     "随着一阵巨响，办公室的墙壁向两侧分开，露出了一台电梯。"
     #立绘【珈乐 焦急】
-    play sound "audio/se/电梯开门.mp3"
+    play sound "audio/se/电梯开门.ogg"
 
     show jl pain with dissolve
     jl "你要干什么...你要带我去哪？快放开我！"
@@ -521,19 +521,19 @@ label cp3_branch1:
     jl "放开！让我出去，你这是犯罪你知道吗？！"
 
     scene 电梯内部 with dissolve
-    play sound "audio/se/电梯运行.mp3"
+    play sound "audio/se/电梯运行.ogg"
 
     "不管珈乐怎样挣扎，她都无法移动哪怕一丝肌肉，只能惊慌地看着电梯上显示的数字飞快的跳动。"
     "20，30，100...最后停留在了168层"
     stop sound
     #这里可以插入电梯运行的音效 等待实现
     ac "见识一下吧，大楼的顶层，真正的世界。"
-    play sound "audio/se/电梯开门.mp3"
+    play sound "audio/se/电梯开门.ogg"
 
     "电梯的门打开了。"
     stop sound
 
-    play music "audio/bgm/危机1.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/危机1.ogg" fadeout 5.0 fadein 4.0
 
     #场景【公司顶楼 总控制室】
     scene 总控制室 with fade
@@ -925,7 +925,7 @@ label cp3_branch1:
     jl "(我是...)"
 
 
-    play music "audio/bgm/有点逆天的可控的日常.mp3" fadeout 5.0 fadein 5.0
+    play music "audio/bgm/有点逆天的可控的日常.ogg" fadeout 5.0 fadein 5.0
 
     scene LivingRoom_light
     show screen memory_filter
@@ -1065,7 +1065,7 @@ label cp3_branch1:
     
     jl "哼！"
 
-    play sound "audio/se/拍击_耳光_巴掌声音.wav"
+    play sound "audio/se/拍击_耳光_巴掌声音.ogg"
     show ac angery
     "啪！"
 label cp3_test:
@@ -1094,7 +1094,7 @@ label cp3_test:
     '\珈乐/\珈乐/\珈乐/','好！','乐！']
 
     show screen dmk_screen(inteval_set=(50,100),max_dmk=200,haveColor=True)
-    play music "audio/voice/珈乐云烟成雨.mp3" fadeout 4.0 fadein 3.0 noloop
+    play music "audio/voice/珈乐云烟成雨.ogg" fadeout 4.0 fadein 3.0 noloop
     jl "若一切 都已云烟成雨"
     jl "我能否变成淤泥，再一次沾染你~"
     jl "若生命 如过场电影"
@@ -1111,7 +1111,7 @@ label cp3_test:
     jl "谢谢大家的支持～～大家的应援～"
     jl "以后也请陪王力口乐一起走下去吧！"
     jl "皇珈骑士你们真是太棒啦"
-    play music "audio/bgm/第二章-希望.mp3" fadeout 5.0 fadein 2.0
+    play music "audio/bgm/第二章-希望.ogg" fadeout 5.0 fadein 2.0
 
     hide screen dmk_screen
     #立绘【珈乐 坚定】
@@ -1149,9 +1149,9 @@ label cp3_test:
     jl "我...知道了真相，那我会去推翻公司，停止用偶像当情绪能源的燃料，改造贫民窟，创造新秩序！"
     jl "而不是去用嘉然的命去摧毁，去破坏，去带来混乱！"
     #音效【撞击声 玻璃破碎声】
-    play sound "/audio/se/身体撞在墙上.mp3"
+    play sound "/audio/se/身体撞在墙上.ogg"
     "咚——！"
-    play sound "/audio/se/玻璃破碎.mp3"
+    play sound "/audio/se/玻璃破碎.ogg"
     show jl pain with dissolve
 
     "珈乐的身体在怪力的作用下猛地撞在了玻璃幕墙上，她的脸色瞬间变得惨白，闷哼出声。"
@@ -1175,7 +1175,7 @@ label cp3_test:
     jl "防身喷雾，快要渗进去了吧？"
     ac "你说什么？"
 
-    play sound "audio/se/爆炸声.mp3"
+    play sound "audio/se/爆炸声.ogg"
     hide ac
     show jl normal at center with dissolve
 
@@ -1186,7 +1186,7 @@ label cp3_test:
     #立绘【珈乐 日常】
     show jl normal at center with dissolve
     jl "再见了。"
-    play sound "/audio/se/玻璃破碎.mp3"
+    play sound "/audio/se/玻璃破碎.ogg"
     "珈乐的身体向后倒去，刚刚就已经被她撞得龟裂的玻璃幕墙彻底粉碎了。"
     #场景【枝江外景】
     scene 夜空满月 with fade

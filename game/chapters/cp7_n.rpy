@@ -22,7 +22,7 @@ label .part1:
 
 
     scene 枝江市广景昼 with dissolve#场景：枝江市广景
-    play music "audio/bgm/电颤琴 枝江.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/电颤琴 枝江.ogg" fadeout 3.0 fadein 3.0
     window show
 
     "人群骚动着涌向了一个不起眼的街区。" with sshake #文本框震动
@@ -59,7 +59,7 @@ label .part1:
     scene 购物中心早 with Fade(1,0.5,1)  #【黑屏转场】 #【场景：购物中心 早】
     show jr normal with dissolve #【立绘：嘉然日常】
 
-    play music "audio/bgm/诡异.mp3" fadeout 4.0 fadein 4.0 #【bgm：诡异】
+    play music "audio/bgm/诡异.ogg" fadeout 4.0 fadein 4.0 #【bgm：诡异】
 
     jr "你们……不累吗？话说……这是要去哪啊"
     "栗色头发的少女有些担忧的看着簇拥着她的人群。"
@@ -92,7 +92,7 @@ label .part1:
     jr "别……大家别这样啊，好孩子是不可以说脏话的……"
 
 
-    play sound "<from 0 to 10>audio/se/嘈杂的人声.mp3" fadeout 3.0 fadein 3.0 #【BGM：嘈杂人声】
+    play sound "<from 0 to 10>audio/se/嘈杂的人声.ogg" fadeout 3.0 fadein 3.0 #【BGM：嘈杂人声】
     "还没等她说完，一个魂们就已经失去了最基本的理智，一场不可避免的冲突已经发生。"
 
     show jr shock with dissolve #【立绘：嘉然吃惊】
@@ -108,7 +108,7 @@ label .part1:
 
     "最不理智的声音带来的却是最理智的结果。"
     "人们的骚动逐渐平息，虽然眼神里还带着一抹疯狂。"
-    play music "audio/bgm/电颤琴 枝江.mp3" fadeout 3.0 fadein 3.0
+    play music "audio/bgm/电颤琴 枝江.ogg" fadeout 3.0 fadein 3.0
 
     show jr smile with dissolve #【立绘：嘉然喜悦】
     jr "这样，这样才对嘛，大家都是最好最好的朋友……咳咳，有什么事，咱们可以慢慢聊嘛~"
@@ -182,7 +182,7 @@ label .part1:
     show jr normal with dissolve #【立绘：嘉然日常】
     jr "我不认识她。"
     # hide jr normal with dissolve
-    play music "audio/bgm/诡异.mp3" fadeout 4.0 fadein 4.0 #【bgm：诡异】
+    play music "audio/bgm/诡异.ogg" fadeout 4.0 fadein 4.0 #【bgm：诡异】
 
     jump .part2
 
@@ -247,7 +247,7 @@ label .part2:
     "那是他们的希望。"
 
     # scene 购物中心午 with Fade(1,0.5,1) #【背景：购物广场，午】  #【黑屏转场】
-    play music "audio/bgm/西贝柳斯 云杉.mp3" fadeout 3.0 fadein 3.0 #【bgm：和平】
+    play music "audio/bgm/西贝柳斯 云杉.ogg" fadeout 3.0 fadein 3.0 #【bgm：和平】
     show jr normal with dissolve #【立绘：嘉然愤怒】
 
     "人们回到最初的起点，奉上了他们最虔诚的供品。"
@@ -329,7 +329,7 @@ label .part2:
 
     "有别于之前的混乱，大家甚至可以称得上秩序井然。"
     "但是每个人表述的内容却犹如天书。"
-    play music "audio/bgm/缓和弦乐.mp3" fadeout 3.0 fadein 3.0 #【bgm：和平】
+    play music "audio/bgm/缓和弦乐.ogg" fadeout 3.0 fadein 3.0 #【bgm：和平】
 
     "【一个魂A】"  "草莓蛋糕！看啊嘉然小姐，您最爱吃的草莓蛋糕！哦对了，还有，还有，那双草莓袜子到底是谁的？求求您告诉我吧！"
     "这些话拆开来看对于嘉然来说都不难。"
@@ -419,7 +419,7 @@ label .part3:
     "谁说他们输得精光？"
     "真正的赌徒就连自己也是一枚筹码。"
 
-    play music "audio/bgm/第二章 悲伤回忆.mp3" fadeout 4.0 fadein 4.0 #【bgm：和平】
+    play music "audio/bgm/第二章 悲伤回忆.ogg" fadeout 4.0 fadein 4.0 #【bgm：和平】
 
     "【一个魂B】"  "咳……嘉然小姐，我是您的一名粉丝……"
     "对方举起手机，清了清嗓子，像朗诵诗篇一样，语调平稳而温和。"
@@ -559,7 +559,7 @@ label .part3:
     show screen memory_filter # 【房间】【做旧处理】
 
     with fade #【黑屏】
-    play music "audio/bgm/回忆 伤感.mp3" fadeout 4.0 fadein 4.0 #【bgm：和平】
+    play music "audio/bgm/回忆 伤感.ogg" fadeout 4.0 fadein 4.0 #【bgm：和平】
 
     "……——，又睡不着了吗？"
     "嗯……——姐姐，给我讲个故事吧~"
@@ -595,7 +595,7 @@ label .part4:
     "后者波涛汹涌，暗流涌动。"
 
     # scene 购物中心午 with fade#【无立绘，仅背景】
-    play sound "<from 0 to 10>audio/se/嘈杂的人声.mp3" fadeout 3.0 fadein 3.0 #【BGM：人声喧闹】
+    play sound "<from 0 to 10>audio/se/嘈杂的人声.ogg" fadeout 3.0 fadein 3.0 #【BGM：人声喧闹】
     # "（人潮再度拥挤）"
     scene 人群
     show jr laugh with dissolve #【立绘：嘉然喜悦】
@@ -617,7 +617,7 @@ label .part4:
     jr "大家！可以！说出来！然然！会！认真！听！"
 
     "嘉然一直都是一个好孩子，她喜欢回答问题，更喜欢回答正确的感觉。"
-    play sound "audio/se/窃窃私语.mp3" fadeout 3.0 fadein 3.0#【BGM：窃窃私语】
+    play sound "audio/se/窃窃私语.ogg" fadeout 3.0 fadein 3.0#【BGM：窃窃私语】
     "人群出现了骚动……"
     "终于，靠在最前排的一个粉丝颤抖的举起了手。"
 
@@ -633,7 +633,7 @@ label .part4:
     show jr doubt with dissolve #【立绘：嘉然疑惑】
     jr "猫，中，毒？"
 
-    play music "audio/bgm/猫中毒.mp3" fadeout 5.0 fadein 4.0 #【BGM：猫中毒（小声）】
+    play music "audio/bgm/猫中毒.ogg" fadeout 5.0 fadein 4.0 #【BGM：猫中毒（小声）】
 
     "她一字一顿的念着，一板一眼的学着。"
     "上面的动作不算复杂，但歌词听不懂。"
@@ -644,7 +644,7 @@ label .part4:
     jr "大家！然然！只跳舞！可以吗！"
 
     "让别人一直等着是很不礼貌的，尤其是现在还有这么多人。"
-    play sound "audio/se/欢呼声.mp3" fadeout 3.0 fadein 3.0 #【BGM：欢呼声】
+    play sound "audio/se/欢呼声.ogg" fadeout 3.0 fadein 3.0 #【BGM：欢呼声】
     "一个魂再度爆发出了欢呼。" with sshake
     "这对于在场的他们来说，是一个里程碑式的胜利。"
 
@@ -654,7 +654,7 @@ label .part4:
     #【立绘：嘉然猫中毒mv随意截图动作】
 
     "少女尽可能的学着屏幕上的动作，像是在玩一场游戏，脚步轻俏，笑容可人。"
-    play sound "<from 0 to 10>audio/se/嘈杂的人声.mp3" fadeout 3.0 fadein 3.0 #【插入背景音：人声嘈杂】
+    play sound "<from 0 to 10>audio/se/嘈杂的人声.ogg" fadeout 3.0 fadein 3.0 #【插入背景音：人声嘈杂】
     "第一次试跳已经结束了，掌声，欢呼声，笑声，甚至还有哭声。"
     "但是她还是觉得自己能做的更好。"
     "于是，她又默默的开始准备第二次……"
@@ -670,7 +670,7 @@ label .part4:
     show jr laugh with dissolve #【立绘：嘉然喜悦】
     jr "大家！然然这次！有进步嘛！（大声）"
 
-    play sound "audio/se/欢呼声.mp3" fadeout 3.0 fadein 3.0 #【插入背景音：欢呼声】
+    play sound "audio/se/欢呼声.ogg" fadeout 3.0 fadein 3.0 #【插入背景音：欢呼声】
     "【一个魂们】"  "有！"  with sshake
     "这可能是目前为止众人最异口同声的回答。"
 
@@ -679,7 +679,7 @@ label .part4:
 
     show jr normal with dissolve #【立绘：嘉然日常】
 
-    play music "audio/bgm/钢琴1 缓和.mp3" fadeout 4.0 fadein 4.0 #【bgm：和平】
+    play music "audio/bgm/钢琴1 缓和.ogg" fadeout 4.0 fadein 4.0 #【bgm：和平】
     "但她像是突然想起了什么一样，头直勾勾地抬了起来，四处张望着什么。"
     "那种迫切的目光像是锐利的剑一样，细看还能看见樱唇嗫嚅的样子。"
     "没人知道该怎么回答，只能无一例外地低下了头。"
@@ -757,7 +757,7 @@ label .part4:
     "【一个魂们】"  "嘉然小姐！可以跳这个吗……嘉然！看这边！"
     "全场的气温直线升高，人们高呼着偶像的名字，偶像也回应着他们的诉求。"
     "就算偶像对自己的身份不自知。"
-    play music "audio/bgm/A-SOUL - Quiet.mp3" fadeout 3.0 fadein 1.0#【BGM:Quiet（小声）】
+    play music "audio/bgm/A-SOUL - Quiet.ogg" fadeout 3.0 fadein 1.0#【BGM:Quiet（小声）】
 
     show jr normal  with dissolve #【立绘：嘉然日常】
     jr "好好好……呃，就这个吧。"
@@ -774,7 +774,7 @@ label .part4:
 
     show jr sad  with dissolve #【立绘：嘉然悲伤】
 
-    play music "audio/bgm/枝江音乐盒.mp3" fadeout 5.0 fadein 3.0  # 【bgm：和平】
+    play music "audio/bgm/枝江音乐盒.ogg" fadeout 5.0 fadein 3.0  # 【bgm：和平】
     jr "没电了……"
 
     scene MV截图 with fade #【背景：MV截图】
@@ -783,7 +783,7 @@ label .part4:
     "那正是她要学的团舞。"
     "人群彻底沸腾。"
 
-    play sound "<from 0 to 10>audio/se/嘈杂的人声.mp3" fadeout 3.0 fadein 3.0 # 插入背景音：喧闹
+    play sound "<from 0 to 10>audio/se/嘈杂的人声.ogg" fadeout 3.0 fadein 3.0 # 插入背景音：喧闹
     "如果说之前的是里程碑，那现在几近抵达终点。"
     "没人知道是谁干的，但能确定的一点是，他就在现场，就在默默无闻的一群人之中。"
 
@@ -814,7 +814,7 @@ label .part5:
 
     show jr happy with dissolve #【立绘：嘉然喜悦】
 
-    play music "audio/bgm/A-SOUL - 超级敏感 (伴奏).mp3" fadeout 3.0 fadein 3.0 #【BGM：超级敏感（伴奏）】
+    play music "audio/bgm/A-SOUL - 超级敏感 (伴奏).ogg" fadeout 3.0 fadein 3.0 #【BGM：超级敏感（伴奏）】
     jr "大家！然然这次！有进步嘛！（挥手）"
 
     scene 人群晚  with dissolve#【背景：人群举着手机，星星点点】
@@ -856,7 +856,7 @@ label .part5:
     "人群缓缓地又拉开一个口子，她们就这么势不可挡的走进了圈子。"
 
     show bl angery  with dissolve #【立绘：贝拉愤怒】
-    play music "audio/bgm/纷乱 第三章.mp3" fadeout 4.0 fadein 4.0 #【BGM：超级敏感（伴奏）】
+    play music "audio/bgm/纷乱 第三章.ogg" fadeout 4.0 fadein 4.0 #【BGM：超级敏感（伴奏）】
 
     bl "好你个嘉然……跳的挺开心啊。"
     "作为队长的她看着不远处刚刚停下动作的粉色小矮子，眉眼里就差喷出火。"
@@ -942,7 +942,7 @@ label .part5:
     hide xw with dissolve
 
 
-    play music "audio/bgm/A-SOUL - 超级敏感.mp3" fadeout 3.0 fadein 5.0 #【BGM:超级敏感（正常）】
+    play music "audio/bgm/A-SOUL - 超级敏感.ogg" fadeout 3.0 fadein 5.0 #【BGM:超级敏感（正常）】
 
     show jr laugh with dissolve#【立绘：嘉然喜悦】
     jr "好！等一下哦，然然让大家放个音乐！"
@@ -991,13 +991,13 @@ label .part5:
     "刚喊出第一个字就后悔了。"
     "就算瓶子的吸引力再大，也总是有盯着她们的人。"
 
-    play music "audio/bgm/诡异.mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/诡异.ogg" fadeout 4.0 fadein 4.0
 
     show jl firm with dissolve
     "她暴露了。"
 
     scene 人群晚 with dissolve #【背景：人群】
-    play sound "<from 0 to 10>audio/se/嘈杂的人声.mp3" fadeout 3.0 fadein 3.0 #【bgm：人声嘈杂】
+    play sound "<from 0 to 10>audio/se/嘈杂的人声.ogg" fadeout 3.0 fadein 3.0 #【bgm：人声嘈杂】
     "【一个魂们】"  "不能走！……珈乐小姐！……乃琳小姐！我的嘉然小姐呢！！"
     "包围圈重新合拢，这次的情况甚至更糟。"
     "被迫分成了两个阵地，8字形的人群将她们隔开。"
@@ -1047,7 +1047,7 @@ label .part5:
     with dissolve
 
     show jr laugh with dissolve #【立绘：嘉然喜悦】
-    play music "audio/bgm/梦幻曲 德彪西.mp3" fadeout 3.0 fadein 2.0
+    play music "audio/bgm/梦幻曲 德彪西.ogg" fadeout 3.0 fadein 2.0
 
     jr "珈乐你不要担心，然然一定把大家带出去！（小声）"
     "嘉然趴在她的耳边，呼出来的热气弄得她怪痒的。"
@@ -1112,7 +1112,7 @@ label .part5:
     "少女懵懂的看着沉默的人群，她期待着一个结果。"
     "一秒，两秒……时间从未如此漫长。"
 
-    play music "audio/bgm/b站女声圣咏.mp3" fadeout 3.0 fadein 2.0#【bgm：神圣】
+    play music "audio/bgm/b站女声圣咏.ogg" fadeout 3.0 fadein 2.0#【bgm：神圣】
 
     scene 分海CG with Dissolve(4)
     "就在她有些失望的时候，人潮开始缓缓分裂。"
@@ -1145,9 +1145,9 @@ label .cp7_n_end:
 
 
 init python:
-    declare('道路 早', 'bg/8 5道路(早).png', 'p')
-    declare('枝江街头', 'bg/1 2枝江街头.png', 'p')
-    declare('病房', 'bg/0 3 病房.png', 'p')
-    declare('MV截图', 'bg/8 MV截图.png', 'p')
-    declare('人群', 'bg/8 人群.png', 'p')
-    declare('人群晚', 'bg/8 人群(晚).png', 'p')
+    declare('道路 早', 'bg/8 5道路(早).webp', 'p')
+    declare('枝江街头', 'bg/1 2枝江街头.webp', 'p')
+    declare('病房', 'bg/0 3 病房.webp', 'p')
+    declare('MV截图', 'bg/8 MV截图.webp', 'p')
+    declare('人群', 'bg/8 人群.webp', 'p')
+    declare('人群晚', 'bg/8 人群(晚).webp', 'p')

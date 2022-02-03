@@ -2,7 +2,7 @@ label ne:
     scene 枝江天台1
     show xw sad at l2
     with fade
-    play music "<from 2 to 85>audio/bgm/绝望ne改.mp3" fadeout 4 fadein 3
+    play music "<from 2 to 85>audio/bgm/绝望ne改.ogg" fadeout 4 fadein 3
     "向晚苏醒了过来..."
     "乃琳，贝拉，珈乐在天台的角落里不省人事。"
     xw "（这次，又失败了吗。）"
@@ -120,7 +120,7 @@ label ne:
     show xw proud at r2
     with dissolve
 
-    play music "audio/bgm/回忆 伤感.mp3" fadeout 4.0 fadein 4.0 #【bgm：和平】
+    play music "audio/bgm/回忆 伤感.ogg" fadeout 4.0 fadein 4.0 #【bgm：和平】
     window show
 
     "今天的双人直播结束。"
@@ -213,7 +213,7 @@ label ne:
     show xw calm at r2
     show nl gloomy at l2
     with Dissolve(3)
-    play music "<from 2 to 85>audio/bgm/绝望ne改.mp3" fadeout 4 fadein 3
+    play music "<from 2 to 85>audio/bgm/绝望ne改.ogg" fadeout 4 fadein 3
 
     nl"晚晚，对不起，我没把珈乐和贝拉带回来。"#（皱眉）
 
@@ -346,7 +346,7 @@ label ne:
     show xw zorder 80:
         ease 0.4 xoffset -300
     $renpy.pause(0.5)
-    play sound "audio/se/击打.mp3"
+    play sound "audio/se/击打.ogg"
     show xw:
         ease 0.2 yoffset 50
 
@@ -360,7 +360,7 @@ label ne:
     #向晚哀 中国
     xw "我只是想和大家一起过着简单的生活而已。"
 
-    play sound "audio/se/击打.mp3"
+    play sound "audio/se/击打.ogg"
 
     with sshake
     show xw:
@@ -372,7 +372,7 @@ label ne:
 
     xw "连那么简单的愿望都没办法实现吗..."
 
-    play sound "audio/se/击打.mp3"
+    play sound "audio/se/击打.ogg"
 
     with sshake
     show xw:
@@ -380,7 +380,7 @@ label ne:
     "保护她，我要保护她......"
     window hide
 
-    play sound "audio/se/击打连击.mp3"
+    play sound "audio/se/击打连击.ogg"
     show xw cry:
         easeout_back 7 yoffset 300
 
@@ -407,7 +407,7 @@ label ne:
     "【向晚父母】" "这次的大学考试，我们的晚晚肯定没问题。你打算安排她去哪里，做好准备了吗。"
     "【向晚父母】" "我们晚晚只要上最好的那两所大学就行，我已经打好招呼了，无论晚晚想要学习哪一个专业，都会有人领着她发展的，你就放心吧。"
     ##关门声
-    play sound "audio/se/木门关门.mp3" fadein 2
+    play sound "audio/se/木门关门.ogg" fadein 2
     "向晚虚掩着的房间门关上了。"
     stop sound
     "可能就是这个时候，向晚知道了过分紧张会引发失眠和极度的腹痛。"
@@ -581,7 +581,7 @@ label ne:
     persistent.be2 and
     persistent.be3 and
     persistent.ne):
-        play sound "audio/se/pass.mp3"
+        play sound "audio/se/pass.ogg"
 
     show 水母 with Dissolve(2):
         align (0.50, 0.53)
@@ -594,19 +594,19 @@ label ne:
 
 layeredimage 水母:
     if persistent.be1:
-        "shuimu.png"
+        "shuimu.webp"
         zoom 0.072
 
     if persistent.be2:
-        "shuimu.png"
+        "shuimu.webp"
         xoffset 120
         zoom 0.072
     if persistent.be3:
-        "shuimu.png"
+        "shuimu.webp"
         xoffset 240
         zoom 0.072
     if persistent.ne:
-        "shuimu.png"
+        "shuimu.webp"
         xoffset 360
         yoffset -20
         zoom 0.10

@@ -321,6 +321,28 @@ init python:
             elif event.key in down_key_list and 's' in self.v_moving:
                 self.v_moving.remove('s')
 
+        def handle_touch(self,event):
+            scale = 1
+            delta = 0
+            pos_x = 0
+            pos_y = 0
+            scale_x = renpy.get_physical_size()[0] / 1280.0
+            scale_y = renpy.get_physical_size()[1] / 720.0
+            delta_x = ((renpy.get_physical_size()[0] / scale_y) - 1280.0) / 2.0
+            delta_y = ((renpy.get_physical_size()[1] / scale_x) - 720.0) / 2.0
+            if scale_x > scale_y:
+                scale = scale_y
+                delta = delta_x
+                pos_x = (event.pos[0] / scale) - 141 - delta
+                pos_y = (event.pos[1] / scale) - 58 
+            elif scale_y > scale_x:
+                scale = scale_x
+                delta = delta_y
+                pos_x = (event.pos[0] / scale) - 141
+                pos_y = (event.pos[1] / scale) - 58 - delta
+            self.x = pos_x
+            self.y = pos_y
+
         @property
         def width(self):
             return self.rect.width
@@ -369,7 +391,7 @@ init python:
     class GameBoard(renpy.Displayable):
         def __init__(self, name):
             super(GameBoard, self).__init__()
-            pygame.event.set_allowed([pygame.KEYDOWN, pygame.KEYUP, pygame.USEREVENT])
+            pygame.event.set_allowed([pygame.KEYDOWN, pygame.KEYUP, pygame.USEREVENT, pygame.MOUSEMOTION])
             self.max_dmk = max_dmk
 
             self.player_name = Text(name, style="dmk_outline")
@@ -539,6 +561,9 @@ init python:
 
             if event.type == pygame.KEYUP:
                 self.player.handle_key_up(event)
+
+            if event.type == pygame.MOUSEMOTION:
+                self.player.handle_touch(event)
             raise renpy.IgnoreEvent()
 
         def check_shoot(self):

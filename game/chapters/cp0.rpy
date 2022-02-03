@@ -77,7 +77,7 @@ label cp0_start:
 
         scene 病房房间 
         with fade
-        play music "audio/zhijiang.wav" fadeout 3.0 fadein 1.0
+        play music "audio/zhijiang.ogg" fadeout 3.0 fadein 1.0
         window show 
 
         show screen saying_black("2031年1月10日",0.5,0.4,30) with Dissolve(3)
@@ -109,7 +109,7 @@ label cp0_start:
         xw "...你先好好休息，我先出去一趟。"
 
         # 脚步声
-        play sound "audio/se/runaway.mp3"
+        play sound "audio/se/runaway.ogg"
         hide xw with moveoutright
 
         p "向晚扭过了头，慌慌张张地逃出了病房。"
@@ -124,7 +124,7 @@ label .cp0_end:
     show screen memory_filter
     with slow_fade
     # 慌乱 压抑的bgm
-    play music "audio/bgm/危机1.mp3" fadeout 3.0 fadein 2.0
+    play music "audio/bgm/危机1.ogg" fadeout 3.0 fadein 2.0
     show jr normal at center with dissolve
 
     $ tmp_dmk_list = ["别混了别混了别混了", "混混混混混混混混混"]
@@ -231,7 +231,7 @@ label .cp0_end:
     hide jr with moveoutbottom
     hide screen dmk_screen
 
-    play sound "audio/se/down.mp3"
+    play sound "audio/se/down.ogg"
     with sshake
 
     p "随着直播结束时嘉然倒下的那声响声，众人才发现然然已经昏了过去。"

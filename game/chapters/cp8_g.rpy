@@ -14,7 +14,7 @@ label cp8_g_start:
 
 label .part1:
 
-    play music "audio/bgm/伤感双吉他.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/伤感双吉他.ogg" fadeout 5.0 fadein 4.0
 
 
     scene 枝江天台1
@@ -89,7 +89,7 @@ label .part1:
     scene 休息室内
     show jr normal
     with Dissolve(2)
-    play music "audio/bgm/放松 温暖 平静.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/放松 温暖 平静.ogg" fadeout 3.0 fadein 4.0
 # 旁白：
     "没有声音，也没有色彩，她的眼前一片苍白。"
     "墙壁面无血色，这小小的房间里万籁俱寂。"
@@ -99,7 +99,7 @@ label .part1:
     "直到敲门声把蛰伏的命运惊醒，齿轮的摩擦声重新响起。"
 
 # 【清脆的敲门声】
-    play sound "audio/se/清脆的敲门声.mp3"
+    play sound "audio/se/清脆的敲门声.ogg"
 # 向晚（无立绘，在门外）：
     xw "嘉然，该走了。"
 
@@ -117,7 +117,7 @@ label .part1:
     
     # "嘉然换上了不同于以往的华丽服装，白色与紫色相间的布料精巧的被缝合在一起，层层叠叠的蕾丝如花一样盛开，她爱怜的拂过那些柔软而顺滑的花纹——又有哪个女孩子不爱美呢？"
 
-    play sound "audio/se/room_door_O.mp3"
+    play sound "audio/se/room_door_O.ogg"
     "嘉然打开了门，向晚正面无表情地望着她。"
 
 # 【开门声】
@@ -258,7 +258,7 @@ label .part2:
     show jr normal at l2
     show xw unconcerned at r2
     with dissolve
-    queue sound ["audio/se/清脆的脚步声-3.mp3"] loop
+    queue sound ["audio/se/清脆的脚步声-3.ogg"] loop
     window show
     jr "我们接下来去哪啊，向晚？"
 
@@ -375,7 +375,7 @@ label .part2:
 
 # 【清脆的电子提示音】
 # 【机械运作声音】
-    play sound "audio/se/清脆的电子提示音.mp3"
+    play sound "audio/se/清脆的电子提示音.ogg"
 # 【嘉然立绘亮】
     show jr normal at l2
 # 【向晚立绘亮】
@@ -430,10 +430,10 @@ label .part2:
 
 label .part3:
 # 3.	夜晚 电梯内（电梯井） 抒情的音乐
-    play music "audio/bgm/抒情双吉他.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/抒情双吉他.ogg" fadeout 3.0 fadein 4.0
 # 【清脆的电子提示音（可以有简单的几个音符的旋律）】
 # 【清脆的脚步声】
-    play sound ["audio/se/清脆的电子提示音.mp3","audio/se/清脆的脚步声-3.mp3"]
+    play sound ["audio/se/清脆的电子提示音.ogg","audio/se/清脆的脚步声-3.ogg"]
     pause(2.0)
     scene 电梯内部
     show jr normal at l2
@@ -448,7 +448,7 @@ label .part3:
 
     "红色的警示灯规律的在电梯井里闪烁，管道和阀门扭曲出一个又一个的直角，没有任何锈迹，但却落满灰尘。"
     "向晚想象着工人们灰头土脸的挂着安全绳，维护检修着这些也许永远都用不上的管道，他们用各种工具娴熟的敲打着管道，发出震颤的回响。"
-    play sound "audio/se/电梯运行.mp3"
+    play sound "audio/se/电梯运行.ogg"
 
     "当电梯门再一次关闭，向晚按下了天台的按钮时，她正倾尽全力的思考着那回响会是一种怎么样的声音。"
     "她不能停止思考，像溺水的人无法停止摆动自己的双手，共同点在于，这种应激反应一样的行为都只是徒劳。"
@@ -540,7 +540,7 @@ label .part3:
     jump .part4
 
 label .part4:
-    play sound "audio/se/难分辨的人群噪音-2.mp3" noloop
+    play sound "audio/se/难分辨的人群噪音-2.ogg" noloop
     xw "我……"
 
     with Pause(2.0)
@@ -567,7 +567,7 @@ label .part4:
     jr "嘘。"
     window hide
     pause(5)
-    play sound "audio/se/聚光灯打开的声音.mp3"
+    play sound "audio/se/聚光灯打开的声音.ogg"
 
     window show
     show screen brightness_increase_1 with dissolve
@@ -658,7 +658,7 @@ label .part4:
 
 label .part5:
 # 5.	夜晚 平台 抒情的音乐
-    play music "audio/bgm/伤感双吉他.mp3" fadeout 3 fadein 4
+    play music "audio/bgm/伤感双吉他.ogg" fadeout 3 fadein 4
 
     scene 枝江天台
     show jr sacred dignified
@@ -682,7 +682,7 @@ label .part5:
     sjr "我会回应你们，就在此时此地，就在今天。"
     sjr "我会给你们一切。"
 
-    play sound "audio/se/清脆的脚步声-3.mp3"
+    play sound "audio/se/清脆的脚步声-3.ogg"
     "嘉然向前走去，她走得很慢很慢，她的裙摆在空中飘扬。月光照耀着她的金发，今晚的星空有两个月亮。"
     stop sound fadeout 2
 # 【清脆的脚步声】

@@ -1,9 +1,9 @@
 init python:
-    declare('病房走廊', 'bg/1 医院走廊2.png', 'p')
-    declare('嘉然病房', 'bg/0 3 病房.png', 'p')
-    declare('枝江街头模糊', 'bg/9 枝江街头模糊.png', 'p')
-    declare('枝江街头不模糊', 'bg/9 枝江街头不模糊.png', 'p')
-    declare('天台', 'bg/1 9 天台.png', 'p')
+    declare('病房走廊', 'bg/1 医院走廊2.webp', 'p')
+    declare('嘉然病房', 'bg/0 3 病房.webp', 'p')
+    declare('枝江街头模糊', 'bg/9 枝江街头模糊.webp', 'p')
+    declare('枝江街头不模糊', 'bg/9 枝江街头不模糊.webp', 'p')
+    declare('天台', 'bg/1 9 天台.webp', 'p')
 
 default goNe = True
 default goTe = False
@@ -28,7 +28,7 @@ label .part1:
     #########
     #"PART1"
     #【病房走廊，向晚冷漠】
-    play music "audio/bgm/抒情1.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/抒情1.ogg" fadeout 5.0 fadein 4.0
 
     scene black
     show 逆时针 zorder 5 at normal_size
@@ -48,7 +48,7 @@ label .part1:
     xw "（而对我来说，只要她们争执起来就已经不需要我的存在了。）"
     xw "（我此时的任务就是让她们吵起来，而我已经完成了任务。）"
     #【脚步声】
-    play sound "audio/se/高跟鞋走路.wav" fadeout 1.0 fadein 3.0
+    play sound "audio/se/高跟鞋走路.ogg" fadeout 1.0 fadein 3.0
     xw "（比起平息她们的争吵，还有更重要的事情等着我去做。）"
 
     scene 医院角落菜地白天
@@ -72,7 +72,7 @@ label .part1:
     "向晚轻轻抱着它的腰，将它放到地上。"
     ##还没有猫叫吗
     #【猫叫两声】
-    play sound "audio/se/cat1a.mp3"
+    play sound "audio/se/cat1a.ogg"
     "猫咪蹭了一下向晚的腿，往医院的远处撒欢地抛开，消失在医院的拐角里，它会在嘉然起床的时候，被贝拉发现抱回去。"
 
     xw "（它的名字叫崽崽，如果我再晚来一秒，它会躺在地上，一动不动，嘴角带着斑斑血迹。）"
@@ -122,7 +122,7 @@ label .part1:
     xw "（自由活动时间结束，我该早点离开病房了，珈乐该来了。）"
     #【医院走廊，向晚疲劳】
 
-    play music "audio/bgm/kirl老师的旋律发散.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/kirl老师的旋律发散.ogg" fadeout 5.0 fadein 4.0
 
     scene 病房走廊 with dissolve
     show xw wronged at l2 with dissolve
@@ -190,7 +190,7 @@ label .part1:
 
     scene 鲜花阳光
     with dissolve
-    play music "audio/bgm/有点逆天的可控的日常.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/有点逆天的可控的日常.ogg" fadeout 5.0 fadein 4.0
     window show
 
     #【鲜花阳光无立绘对话框】
@@ -306,7 +306,7 @@ label .part1:
 
     bl "....别报警，晚晚。我现在就在枝江大厦下面那条街上，别来找我。"
 
-    play sound "<from 0 to 3>audio/se/1电话挂断的嘟嘟声.mp3" fadeout 1.0
+    play sound "<from 0 to 3>audio/se/1电话挂断的嘟嘟声.ogg" fadeout 1.0
     "电话被挂断了..."
     stop sound
     "向晚拿起手机，给贝拉发送了一条语音消息"
@@ -347,7 +347,7 @@ label .part1:
     scene 道路夜
     with dissolve
 
-    play music "audio/bgm/emo.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/emo.ogg" fadeout 5.0 fadein 4.0
     window show
     "入夜"
     "消音的子弹划破夜色，向着乃琳袭去"
@@ -485,7 +485,7 @@ label .part1:
 
 # 【清脆的电子提示音】
 # 【机械运作声音】
-    play sound ["audio/se/清脆的电子提示音.mp3","audio/se/高端机械运作声音-4.mp3"]
+    play sound ["audio/se/清脆的电子提示音.ogg","audio/se/高端机械运作声音-4.ogg"]
 # 【嘉然立绘亮】
     show jr normal at l2
 # 【向晚立绘亮】
@@ -517,10 +517,10 @@ label .part1:
 
 label .part3:
 # 3.	夜晚 电梯内（电梯井） 抒情的音乐
-    play music "audio/bgm/抒情双吉他.mp3" fadeout 3.0 fadein 4.0
+    play music "audio/bgm/抒情双吉他.ogg" fadeout 3.0 fadein 4.0
 # 【清脆的电子提示音（可以有简单的几个音符的旋律）】
 # 【清脆的脚步声】
-    play sound ["audio/se/清脆的电子提示音.mp3","audio/se/清脆的脚步声-3.mp3"]
+    play sound ["audio/se/清脆的电子提示音.ogg","audio/se/清脆的脚步声-3.ogg"]
     pause(2.0)
     scene 电梯内部
     show jr normal at l2
@@ -534,7 +534,7 @@ label .part3:
     stop sound
     "红色的警示灯规律的在电梯井里闪烁，管道和阀门扭曲出一个又一个的直角，没有任何锈迹，但却落满灰尘。"
     "向晚想象着工人们灰头土脸的挂着安全绳，维护检修着这些也许永远都用不上的管道，他们用各种工具娴熟的敲打着管道，发出震颤的回响。"
-    play sound "audio/se/电梯运行.mp3"
+    play sound "audio/se/电梯运行.ogg"
 
     "当电梯门再一次关闭，向晚按下了天台的按钮时，她正倾尽全力的思考着那回响会是一种怎么样的声音。"
     "她不能停止思考，像溺水的人无法停止摆动自己的双手，共同点在于，这种应激反应一样的行为都只是徒劳。"
@@ -586,7 +586,7 @@ label .part3:
     show xw cry with dissolve
     "向晚知道，面对残酷的命运，自己并非孤身一人。"
 
-    play sound "audio/se/难分辨的人群噪音-2.mp3" noloop
+    play sound "audio/se/难分辨的人群噪音-2.ogg" noloop
 
     scene 电梯透明
     with flash
@@ -607,7 +607,7 @@ label .part3:
     jr "嘘。"
     window hide
     pause(5)
-    play sound "audio/se/聚光灯打开的声音.mp3"
+    play sound "audio/se/聚光灯打开的声音.ogg"
 
     window show
     show screen brightness_increase_1 with dissolve
@@ -682,7 +682,7 @@ label .part3:
 
 
 label .part2:
-    play music "audio/bgm/争吵.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/争吵.ogg" fadeout 5.0 fadein 4.0
 
     scene 枝江天台
     show xw angery at center
@@ -787,7 +787,7 @@ label .part2:
         xw "（天台的狂风呼啸......）"
         xw "（这一次，把大家拯救出来吧......）"
 
-    play music "audio/bgm/Silent elegy 可循环(1).mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/Silent elegy 可循环(1).ogg" fadeout 5.0 fadein 4.0
 
     scene 枝江天台
     show ac happy
@@ -915,7 +915,7 @@ label .part2:
     show nl worried at l3
     with dissolve
 
-    play music "audio/bgm/Battle field可循环.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/Battle field可循环.ogg" fadeout 5.0 fadein 4.0
 
     bl "要上了，大家。"
 
@@ -947,7 +947,7 @@ label .part2:
     show ac angery
     ac "可笑之至。"
     "阿草肥硕的每一块肉与毛都抖动了起来，那并不是战栗或者是害怕，而是一种梦想即将实现的兴奋和颤栗。" with sshake
-    play sound "audio/se/2劲风或破空声swing1.mp3"
+    play sound "audio/se/2劲风或破空声swing1.ogg"
     show ac:
         easeout 0.2 xoffset -600
     "那只有着肉垫的蹶子尥了尥，身影在原地完全消失，就像是一道飘忽的幻影，如同一只穿梭在草地中的游蛇一般。"
@@ -1032,7 +1032,7 @@ label .part2:
     "贝拉挥出一拳，阿草以不可视之手迎上挡住"
 
     "在他用情绪能量实体化碰触到拳头那一刻，就意识到自己犯了一个致命的错误。"
-    play sound "audio/se/击打.mp3"
+    play sound "audio/se/击打.ogg"
     with Pause(0.25)
     show ac normal:
         easeout 0.3 xcenter 200
@@ -1076,12 +1076,12 @@ label .part2:
     show xw angery with dissolve
     xw "A-SOUL可是能随着时间，创造奇迹的组合，放弃你那落后于时代的眼光吧。"
     #【金属撞击的铿声屏幕摇晃】
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
 
     "向晚拾起贝拉扔下的铁棍，挡住了阿草的大手。" with sshake
     #【狙击枪声三响】
 
-    play sound "audio/se/枪声三连.mp3"
+    play sound "audio/se/枪声三连.ogg"
 
     "向晚听到了数声巨大的枪响自她的背后而来，向着已经发动攻击的阿草袭去，那是乃琳隐藏在暗处的狙击。"
     "砰，砰，砰，三连发子弹已经锁定了阿草的头颅，弹壳下落砸到地面上，发出清脆的响声。"
@@ -1095,11 +1095,11 @@ label .part2:
     if goNe:
         xw "看啊...看啊，我可以的，我能做到，我拖住他了。"
         "向晚沉浸在用铁棍拖住阿草一只大手的愉悦中，她望着阿草的脸色，体会着他的心情，那究竟是什么感觉呢？像是喝了一口威士忌却发现没有加冰的滋味？"
-    play sound "audio/se/2劲风或破空声swing1.mp3"
+    play sound "audio/se/2劲风或破空声swing1.ogg"
 
     "一道猛烈劲风划过，如同高速公路上时速200公里的大客车一般的冲击力的隐形拳头转瞬之间就到了向晚眼前，那是阿草控制的另外一只大手。"
 
-    play music "audio/bgm/第二章 悲伤回忆.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/第二章 悲伤回忆.ogg" fadeout 5.0 fadein 4.0
 
     hide ac with None
     show bl anxiety at l2
@@ -1114,7 +1114,7 @@ label .part2:
         xw "（没关系，不痛的...）"
 
     #【屏幕颤抖，晚晚痛苦】
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     with Pause(.1)
 
     show xw despair zorder 50:
@@ -1130,7 +1130,7 @@ label .part2:
 
     "贝拉抓住向晚的肩膀，将其向一旁推开。"
 
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     with Pause(.1)
 
     show bl daze:
@@ -1257,17 +1257,17 @@ label .part2:
     ac "战斗中在意队友是一种非常低效且无用的行为，像贝拉这么强的武圣因为这个原因有了弱点真是一个天大的笑话。"
     ac "就像我们利用粉丝一样，我们从来没有把注意力放在他们身上。反正他们随时都会离开，也随时会有新的粉丝补充进来。"
 
-    play music "audio/bgm/第三章重点曲3阶段悲壮战斗.mp3" fadeout 5.0 fadein 4.0
+    play music "audio/bgm/第三章重点曲3阶段悲壮战斗.ogg" fadeout 5.0 fadein 4.0
 
     "【??】" "是吗？愚蠢的是你。"
     "随着话音落下，一道影梭扫了过去。"
 
-    play sound "audio/se/2劲风或破空声swing1.mp3"
+    play sound "audio/se/2劲风或破空声swing1.ogg"
     show nl angery at rc with easeinright
     show xw expect with dissolve
     "乃琳的手中反握着一把短刀，呜呜的破风声只在耳边响起了一瞬，向晚便再也看不到乃琳的影子了。"
     "以前的乃琳，跳舞动作比机器人还僵硬，挥舞着匕首的她，灵巧得像只成了精的猫咪。"
-    play sound "audio/se/2劲风或破空声swing1.mp3"
+    play sound "audio/se/2劲风或破空声swing1.ogg"
     "乃琳一刀反握劈杀过去，刺目的冷光直接对准了阿草的喉咙，阿草收回袭击贝拉的无形之手，和乃琳战至一起。" with sshake
     "向晚提着铁棍边抵挡着隐形大手边后退，很快就逃到了乃琳旁边。"
 
@@ -1325,7 +1325,7 @@ label .part2:
     "铁棍向着没有防备的乃琳挥了下去。"
 
     #【金属声】
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     with Pause(.1)
     "这棍棒仿若有了它自己的意志，借力给向晚。"
     "她用铁棍挡住了乃琳背后进攻的大手。" with sshake
@@ -1341,7 +1341,7 @@ label .part2:
     show ac panic with dissolve
     ac "什么！！"
 
-    play sound "audio/se/沉默爆炸2.mp3"
+    play sound "audio/se/沉默爆炸2.ogg"
 
     "阿草一只魔力之手此时正袭击乃琳的背后，被向晚阻止住了，另一只手挡住了手榴弹对于装置的伤害，已经没有余力去挡住乃琳的子弹了。"
     ac "幸好我还留有..."
@@ -1368,7 +1368,7 @@ label .part2:
     show xw at r2
     show bl at lc
     with move
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     with Pause(.1)
 
     "铁棍一挥，就击飞了挡在向晚身前的大手。" with sshake
@@ -1387,7 +1387,7 @@ label .part2:
     with dissolve
     "乃琳反手将子弹上膛，瞄准了阿草，微眯瞳孔。"
 
-    play sound "audio/se/枪声三连.mp3"
+    play sound "audio/se/枪声三连.ogg"
 
     "抵近射击，连开三枪。" with sshake
     "乃琳的三发子弹贯穿了阿草的头颅。"
@@ -1395,7 +1395,7 @@ label .part2:
     show ac :
         easein 2 yoffset 500
     with Pause(2)
-    play sound "audio/se/down.mp3"
+    play sound "audio/se/down.ogg"
 
     "阿草的身躯倒了下去，和贝拉对峙的那只手也失去了踪迹。"
 
@@ -1421,7 +1421,7 @@ label .part2:
 
 
     "突然，出乎意料的刚刚已经完全消失的拳风袭来，向晚一时间没有防备，被结结实实地打在了身上。"
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
 
     show xw despair:
         easein .2 yoffset 100

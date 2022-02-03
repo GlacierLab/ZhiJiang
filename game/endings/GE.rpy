@@ -8,7 +8,7 @@ label ge:
 
 label .content:
     scene black
-    play music "audio/bgm/纷乱 第三章.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/纷乱 第三章.ogg" fadeout 4 fadein 4
 
     show screen saying("你又要看着她们再一次牺牲吗",0.5,0.4,30) with Dissolve(3)
     $ renpy.pause(2.0)
@@ -67,7 +67,7 @@ label .content:
     "随着向晚身上的血液流到匕首之上，匕首的纹路也越来越明亮，像附倚的蛇般爬上向晚的手，匕首从柄部泛起涟漪直至匕端。"
     "就像是曾经一个魂们挥舞的应援棒一样，指引照明着向晚的前路，亦支撑着向晚此刻虚弱无力的身体。"
 
-    play music "audio/bgm/第四章反转.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/第四章反转.ogg" fadeout 4 fadein 4
 
     show xw angery with dissolve
     xw "命运吗？注定吗？如果命运注定这是如此悲伤的结局，那就由我来打破！"
@@ -79,7 +79,7 @@ label .content:
     show xw normal with dissolve
     xw "等着我，我一定会把你们拯救出来的。"
 
-    play sound "audio/se/血流声.mp3"
+    play sound "audio/se/血流声.ogg"
 
     "向晚的浑身又漫溢出了光与热，勇气，坚持...那些失去过的曾经给予她力量的东西重新涌入了她的血管。"
 
@@ -151,7 +151,7 @@ label .content:
     nl "珈乐，我先帮你包下伤口吧。"
     jl "我倒是不用...你先帮贝拉，不对...还是先帮晚晚吧。"
 
-    play music "audio/bgm/缓和弦乐.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/缓和弦乐.ogg" fadeout 4 fadein 4
 
     scene 英雄CG
     with Dissolve(3)
@@ -184,7 +184,7 @@ label .content:
     xw "我的愿望就是把你救出来。"
     "向晚挥动着帷幕之末，用尽她的余力砍了过去。"
     "612次的轮回，才让向晚有机会挥下这一刀。"
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     "这把刀重重地劈在了围绕着黑色火焰的装置上"
     with sshake
     show xw sad  with dissolve
@@ -196,9 +196,9 @@ label .content:
     "向晚躲闪着，在黑色的火焰里躲闪着，穿梭着。"
     "她的紫色钻头摇摆着，随风飘舞，像是一只翩翩起舞的紫色蝴蝶。"
     show xw angery with dissolve
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     "向晚又一刀劈在了装置之上，黑色火焰化为巨盾实体，与帷幕之末相对峙。" with sshake
-    play sound "audio/se/践踏.mp3"
+    play sound "audio/se/践踏.ogg"
     "一刀，又一刀，向晚将帷幕之末用力向装置砍去，重重火焰一次次被劈开又再次聚集，帷幕之末的破魔能力，在如此庞大的众愿魔力之下像是蜉蝣撼大树，支持不住的帷幕之末在最后一刀破碎四散，无数黑色碎片飞舞在空中。"
     "向晚的所有努力，只是在装置上留下了浅浅的刮痕。"
     show xw cry with dissolve
@@ -273,7 +273,7 @@ label .content:
     "那是嘉然，她的身上留下了道道黑色火焰灼烧再修复的痕迹。"
     "她的身体颤抖着，只是轻轻地抱住向晚，她的声带已经被灼烧地说不出完整的话来.."
 
-    play music "audio/bgm/第八章 夜蝶 he hope.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/第八章 夜蝶 he hope.ogg" fadeout 4 fadein 4
     
     show jr sacred dignified at r2 with dissolve
     sjr "晚...晚... "

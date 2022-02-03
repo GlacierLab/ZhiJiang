@@ -25,7 +25,7 @@ label .part1: #两支箭
     #【场景 枝江市广景-傍晚】
     #【BGM 鸟叫虫鸣声】
     scene 枝江市广景傍晚 with dissolve
-    play music "audio/se/虫鸣鸟叫声.mp3" fadein 2.0
+    play music "audio/se/虫鸣鸟叫声.ogg" fadein 2.0
     window show
 
     "夜晚是副面具。"
@@ -38,7 +38,7 @@ label .part1: #两支箭
 
     with dissolve
     #【BGM 悲伤/例 风居住的街道】
-    play music "audio/bgm/第一章医院.mp3" fadeout 3 fadein 3.0
+    play music "audio/bgm/第一章医院.ogg" fadeout 3 fadein 3.0
     nl "晚晚，睡一会儿吧。"
     #【立绘 向晚-悲伤】
     xw "睡不着。"
@@ -86,7 +86,7 @@ label .part1: #两支箭
     nl "很久很久以前，希腊有个太阳神，叫阿波罗。"
      #【黑屏转出】
      #【场景 天空-满月】
-    play music "audio/bgm/阿拉伯风1 德彪西.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/阿拉伯风1 德彪西.ogg" fadeout 4 fadein 4
     scene 夜空满月 with fade
      #【BGM 诗意/例 青空】
     "玉盘高挂，微风吹拂。"
@@ -172,7 +172,7 @@ label .part1: #两支箭
     # 【场景：病房房间-夜】
 
     scene 病房强月光 with fade
-    play music "audio/bgm/月光 德彪西.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/月光 德彪西.ogg" fadeout 4 fadein 4
      #【立绘 向晚-担忧】
 
     show xw worried at r2
@@ -202,7 +202,7 @@ label .part1: #两支箭
     show nl normal with dissolve
     nl "嗯，我相信你。"
      #【场景：满月-远景】
-    play music "audio/bgm/有点逆天的可控的日常.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/有点逆天的可控的日常.ogg" fadeout 4 fadein 4
     scene 夜空满月 with dissolve
     #【BGM 悲伤/例 风居住的街道】
 
@@ -302,7 +302,7 @@ label .part1: #两支箭
      #【场景 繁星】
      #【无立绘】
      #【BGM：诗意/例：青空】
-    play music "audio/bgm/月光 德彪西.mp3" fadeout 4 fadein 4
+    play music "audio/bgm/月光 德彪西.ogg" fadeout 4 fadein 4
     "月亮悄悄地，转到她们看不见的地方去了。"
     "晚晚似乎睡着了，趴在床上没了动静。"
     "乃琳想起与阿草签订的协议。"
@@ -360,7 +360,7 @@ label .part2: #两条路
 
     with dissolve
      #【BGM 诡异】
-    play music "audio/bgm/悬疑诡异气氛通用BGM2.mp3" fadein 1.0
+    play music "audio/bgm/悬疑诡异气氛通用BGM2.ogg" fadein 1.0
     "把光明关在身后的乃琳小姐，根本没想象过门外的荒凉。"
     "如果城市也有生命的话，现在的它，一定已病入膏肓。"
      #【立绘 乃琳-恐惧】
@@ -396,7 +396,7 @@ label .part2: #两条路
     show nl gloomy
     hide screen memory_filter
     with fade
-    play sound "audio/se/高跟鞋脚步声中.mp3"
+    play sound "audio/se/高跟鞋脚步声中.ogg"
     "再拐三个路口就到了……"
     "乃琳默念着。她几乎不敢睁眼。"
     "但她还是睁着眼。微弱的视觉至少能带给她暂时的安全感。"
@@ -409,12 +409,12 @@ label .part2: #两条路
 
     nl "啊——！！！" with sshake
 
-    play sound "audio/se/鼠窜.mp3"
+    play sound "audio/se/鼠窜.ogg"
     "诡秘的声音从四面响起，吓得乃琳急忙退开。"
 
     "【？】" "倏——倏——" with sshake
     "声音愈发接近了，扒着乃琳的肩膀。"
-    play sound "audio/se/高跟鞋脚步声快.mp3"
+    play sound "audio/se/高跟鞋脚步声快.ogg"
     "她不敢回头，只能佯装淡定地快步前行。"
     "快点……再快点……"
     "……"
@@ -423,7 +423,7 @@ label .part2: #两条路
 
     scene 道路夜 
      #【BGM 黑暗】
-    play music "audio/bgm/阴间的枝江.mp3" fadein 4.0 fadeout 4
+    play music "audio/bgm/阴间的枝江.ogg" fadein 4.0 fadeout 4
      #【立绘 乃琳-阴沉】
     show nl gloomy at center with dissolve
     "【???】" "回去吧。"
@@ -467,12 +467,12 @@ label .part2: #两条路
     nl "我不！"
     "她想起嘉然憔悴的神情，向晚红肿的眼。"
     "回头，是最错误的选择。"
-    play sound "audio/se/高跟鞋脚步声快.mp3"
+    play sound "audio/se/高跟鞋脚步声快.ogg"
     "她深吸一口气，加快脚步。"
 
      #【BGM 急迫/例Hello Zepp】
      #【无立绘】
-    play music "audio/bgm/能说的不多了感觉弦乐完整.mp3" fadein 4.0 fadeout 4
+    play music "audio/bgm/能说的不多了感觉弦乐完整.ogg" fadein 4.0 fadeout 4
     "应该快到了、应该快到了……"
     "她转过路口，迫不及待拿出手机照亮，确认自己的位置。"
     "乃琳这才发现，因为种种变数，她今天这是第一次打开手机。"
@@ -485,7 +485,7 @@ label .part2: #两条路
     nl "那这么多动态提示是……"
     #【无立绘】
     #【BGM 放松/例 夏夜】
-    # play music "audio/bgm/放松 温暖 平静.mp3" fadeout 1.0 fadein 1.0
+    # play music "audio/bgm/放松 温暖 平静.ogg" fadeout 1.0 fadein 1.0
     "【奶淇琳A】" "乃老师，晚安捏，大腿别着凉啦~"
     "【奶淇琳B】" "乃琳，在看嘛？在看Mua你一下！"
     "【奶淇琳C】" "乃琳，回个复吧，我的乃琳——"
@@ -549,7 +549,7 @@ label .part3: #两杯酒
     #屏幕背景语 你会得到哪一支的眷顾？
     #【场景 谈话厅-晚】
     scene 阿草办公室 with dissolve
-    play music "audio/bgm/裸体舞曲1 萨蒂.mp3" fadein 4.0 fadeout 4
+    play music "audio/bgm/裸体舞曲1 萨蒂.ogg" fadein 4.0 fadeout 4
      #【BGM 舒缓/例 酒吧】
      #【无立绘】
     #侍者
@@ -622,7 +622,7 @@ label .part3: #两杯酒
     #【BGM：舒缓/例：酒吧】
     #【立绘：阿草-愤怒】
 
-    play music "audio/bgm/玄秘曲 萨蒂.mp3" fadein 4.0 fadeout 4
+    play music "audio/bgm/玄秘曲 萨蒂.ogg" fadein 4.0 fadeout 4
     show nl normal at r2
     show ac angery at l2
     with dissolve
@@ -663,7 +663,7 @@ label .part3: #两杯酒
 
     #【立绘 阿草-悲伤】
     show ac normal with dissolve
-    play music "audio/bgm/诡异.mp3" fadein 4.0 fadeout 4
+    play music "audio/bgm/诡异.ogg" fadein 4.0 fadeout 4
     ac "……"
     #【BGM 诡异】
     ac "唉，我这样形容吧……"
@@ -702,7 +702,7 @@ label .part3: #两杯酒
      #【场景-枝江市全景-深夜】
      #【BGM 黑暗】
      #【无立绘】
-    # play music "audio/bgm/阴间的枝江.mp3" fadeout 1.0 fadein 1.0
+    # play music "audio/bgm/阴间的枝江.ogg" fadeout 1.0 fadein 1.0
     scene 枝江市广景深夜 with fade
     ac "枝江……是一座虚假的城市。"
     ac "它的出现本身，就是一个悖论。"
@@ -779,7 +779,7 @@ label .part3: #两杯酒
      #【无立绘】
     hide xw with moveoutright
      #【BGM 关门声】
-    play sound "audio/se/砰的一声关门.mp3"
+    play sound "audio/se/砰的一声关门.ogg"
     "房间很快安静了，屋内仅剩嘉然一人。"
     "谁都没有注意到，窗外的圆月，不知何时又转回了这一方。"
     "——在屋外窸窸窣窣由远而近的人声掩映下，规律地闪烁着诡异的光辉。"
@@ -792,7 +792,7 @@ label .part3: #两杯酒
 
     with fade
      #【BGM 黑暗】
-    # play music "audio/bgm/争吵.mp3" fadein 1.0
+    # play music "audio/bgm/争吵.ogg" fadein 1.0
     "这根本就不是什么自愿献祭。"
     "这是有预谋的逻辑闭环。"
     "就像被爱神的两支箭，同时射入了心脏。爱与恨缠绕交织，用无力的挣扎撕裂自我。"
@@ -818,7 +818,7 @@ label .part3: #两杯酒
     "向晚呢？她会怎样呢？"
     "她想起自己在大厦门口看到的那封信。"
     #【场景：枝江大厦-夜】
-    play music "audio/bgm/钢琴1 缓和.mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/钢琴1 缓和.ogg" fadeout 4.0 fadein 4.0
     scene 枝江大厦夜 with dissolve
     #【BGM：温暖/例：初夏的风】
     #【无立绘，独白】
@@ -881,7 +881,7 @@ label .part3: #两杯酒
     hide screen memory_filter 
     with fade
 
-    play music "audio/bgm/争吵.mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/争吵.ogg" fadeout 4.0 fadein 4.0
     #【无立绘】
     #【BGM：黑暗】
     "让别人\"夺走\"嘉然？"
@@ -946,9 +946,9 @@ label .part3: #两杯酒
     #【屏幕震动】
     #【BGM：激动（特殊音乐）】
 
-    play music "audio/bgm/第四章反转.mp3"
+    play music "audio/bgm/第四章反转.ogg"
     #【特殊CG】
-    play sound "audio/se/泼水飞溅.mp3"
+    play sound "audio/se/泼水飞溅.ogg"
     #【屏幕震动】
     scene 乃琳CG with dissolve
     "哗——！" 
@@ -1006,7 +1006,7 @@ label .part3: #两杯酒
     ac "对，你的假同事，你可以和她们随意相处，别暴露身份就好。"
     nl "哦……"
     #【场景：天空-晴】
-    play music "audio/bgm/放松 温暖 平静.mp3" fadeout 4.0 fadein 4.0
+    play music "audio/bgm/放松 温暖 平静.ogg" fadeout 4.0 fadein 4.0
     scene 客厅夜 with dissolve
     #【BGM：温暖/例：初夏的风】
     #【立绘：嘉然-喜悦】
@@ -1087,7 +1087,7 @@ label .part3: #两杯酒
     nl "呵呵，别气馁嘛，我还是很感谢你给我的工作机会的~"
     nl "再见！"
     hide nl with moveoutright
-    play sound "audio/se/砰的一声关门.mp3"
+    play sound "audio/se/砰的一声关门.ogg"
     ac "……"
     #【场景：枝江大厦-夜】
     scene 枝江市广景午夜 with dissolve
@@ -1101,35 +1101,35 @@ label .part3: #两杯酒
 
 
 image 道路夜放大:
-    "bg/8 5道路(夜).png"
+    "bg/8 5道路(夜).webp"
     align (0,0) xoffset -2080 yoffset -1460
     1.0
     easeout 1.0 xoffset -1280 yoffset -1460
     easein_cubic 3.0 xoffset -1280 yoffset -400
     easein 1.5 xoffset -1280 yoffset -1300
 init python:
-    declare('阿草办公室', 'bg/5 阿草办公室.png', 'p')
-    declare('街道_night', 'bg/2 5 街道（夜）.png', 'p')
-    declare('道路_night', 'bg/8 5道路(夜).png', 'p')
-    declare('夜空满月', 'bg/2 5 夜空（满月）.png', 'p')
-    declare('夜空繁星', 'bg/2 5 夜空（繁星）.png', 'p')
-    declare('夜空诡月', 'bg/2 5 夜空（诡月）.png', 'p')
-    declare('道路早', 'bg/8 5道路(早).png', 'p')
-    declare('道路夜', 'bg/8 5道路(夜).png', 'p')
-    declare('病房', 'bg/0 3 病房.png', 'p')
-    declare('病房1', 'bg/5 病房(早).png', 'p')
-    declare('病房晚', 'bg/5 病房(晚).png', 'p')
-    declare('病房强月光', 'bg/5 病房(强月光).png', 'p')
-    declare('医院角落菜地白天', 'bg/5 9医院角落菜地(白天).png', 'p')
-    declare('医院角落菜地夜', 'bg/5 9医院角落菜地(夜).png', 'p')
-    declare('乡村仓库', 'bg/5 乡村仓库（午）.png', 'p')
-    declare('枝江市广景傍晚', 'bg/5 8枝江市广景（傍晚）.png', 'p')
-    declare('枝江市广景深夜', 'bg/5 8枝江市广景（深夜）.png', 'p')
-    declare('枝江市广景午夜', 'bg/5 8枝江市广景（午夜）.png', 'p')
-    declare('枝江市广景昼', 'bg/5 8枝江市广景(昼).png', 'p')
-    declare('天空晴', 'bg/5 天空(晴).png', 'p')
-    declare('天空阴', 'bg/5 天空(阴).png', 'p')
-    declare('河边', 'bg/5 河边.png', 'p')
-    declare('神界树', 'bg/5 神界(树）.png', 'p')
-    declare('枝江大厦夜', 'bg/1 4 5枝江大厦外景(夜晚).png', 'p')
-    declare('枝江大厦白天', 'bg/1 4 5枝江大厦外景(白天).png', 'p')
+    declare('阿草办公室', 'bg/5 阿草办公室.webp', 'p')
+    declare('街道_night', 'bg/2 5 街道（夜）.webp', 'p')
+    declare('道路_night', 'bg/8 5道路(夜).webp', 'p')
+    declare('夜空满月', 'bg/2 5 夜空（满月）.webp', 'p')
+    declare('夜空繁星', 'bg/2 5 夜空（繁星）.webp', 'p')
+    declare('夜空诡月', 'bg/2 5 夜空（诡月）.webp', 'p')
+    declare('道路早', 'bg/8 5道路(早).webp', 'p')
+    declare('道路夜', 'bg/8 5道路(夜).webp', 'p')
+    declare('病房', 'bg/0 3 病房.webp', 'p')
+    declare('病房1', 'bg/5 病房(早).webp', 'p')
+    declare('病房晚', 'bg/5 病房(晚).webp', 'p')
+    declare('病房强月光', 'bg/5 病房(强月光).webp', 'p')
+    declare('医院角落菜地白天', 'bg/5 9医院角落菜地(白天).webp', 'p')
+    declare('医院角落菜地夜', 'bg/5 9医院角落菜地(夜).webp', 'p')
+    declare('乡村仓库', 'bg/5 乡村仓库（午）.webp', 'p')
+    declare('枝江市广景傍晚', 'bg/5 8枝江市广景（傍晚）.webp', 'p')
+    declare('枝江市广景深夜', 'bg/5 8枝江市广景（深夜）.webp', 'p')
+    declare('枝江市广景午夜', 'bg/5 8枝江市广景（午夜）.webp', 'p')
+    declare('枝江市广景昼', 'bg/5 8枝江市广景(昼).webp', 'p')
+    declare('天空晴', 'bg/5 天空(晴).webp', 'p')
+    declare('天空阴', 'bg/5 天空(阴).webp', 'p')
+    declare('河边', 'bg/5 河边.webp', 'p')
+    declare('神界树', 'bg/5 神界(树）.webp', 'p')
+    declare('枝江大厦夜', 'bg/1 4 5枝江大厦外景(夜晚).webp', 'p')
+    declare('枝江大厦白天', 'bg/1 4 5枝江大厦外景(白天).webp', 'p')
