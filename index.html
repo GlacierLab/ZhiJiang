@@ -9,6 +9,21 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <link rel="icon" href="./icon.ico">
     <link href="./primer.css" rel="stylesheet">
+    <script>
+        const dlPanel = document.getElementById("dlPanel");
+        const dlFile = (link, name) => {
+            let eleLink = document.createElement('a');
+            eleLink.download = name;
+            eleLink.style.display = 'none';
+            eleLink.href = link;
+            document.body.appendChild(eleLink);
+            eleLink.click();
+            document.body.removeChild(eleLink);
+        }
+        const ctfileReady = () => {
+            dlPanel.insertBefore(ctfile.makeBtn("8067059-541626359-5ed2bd", "547873715"), dlPanel.getElementsByTagName("h5")[1]);
+        }
+    </script>
     <script async src="https://ctfile.qinlili.bid/ctbtn.js" onload="ctfileReady();"></script>
     <script async src="https://qinlili.bid/jslib/Bella.js" crossorigin="anonymous"></script>
     <style>
@@ -89,21 +104,6 @@
         </div>
     </div>
     <H6 style="margin-top:20%"><a href="https://qinlili.bid">琴梨梨</a> 2022</H6>
-    <script>
-        const dlPanel = document.getElementById("dlPanel");
-        const dlFile = (link, name) => {
-            let eleLink = document.createElement('a');
-            eleLink.download = name;
-            eleLink.style.display = 'none';
-            eleLink.href = link;
-            document.body.appendChild(eleLink);
-            eleLink.click();
-            document.body.removeChild(eleLink);
-        }
-        const ctfileReady = () => {
-            dlPanel.insertBefore(ctfile.makeBtn("8067059-541626359-5ed2bd", "547873715"), dlPanel.getElementsByTagName("h5")[1]);
-        }
-    </script>
 </body>
 
 </html>
