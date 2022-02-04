@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="moe.qinlili.renpy.zhijiangstory"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11"
+    android:versionCode="20220204"
+    android:versionName="20220204"
+    android:compileSdkVersion="76"
+    android:compileSdkVersionCodename="Qinlili_RailgunEX_Lite">
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="32" />
+    <!-- Prevent phone from sleeping -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Control vibration -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <application
+        android:label="枝江往事"
+        android:icon="@7f0a0000"
+        android:name="qinlili.Core.RailgunEX"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:isGame="true"
+        android:fullBackupOnly="true"
+        android:fullBackupContent="@7f0e0000">
+        <activity
+            android:theme="@7f0c0005"
+            android:label="枝江往事"
+            android:name="org.renpy.android.PythonSDLActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:resizeableActivity="false">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
