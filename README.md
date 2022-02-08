@@ -1,3 +1,17 @@
+# 由琴梨梨移植到移动平台
+
+### 移植过程技术分享
+https://www.bilibili.com/video/BV1sP4y1A75Y/  
+https://www.bilibili.com/video/BV1U34y127hb/  
+https://www.bilibili.com/video/BV1oR4y1j7Sv/  
+
+
+### 下载网站
+https://zhijiang.qinlili.bid/  
+
+
+
+### 下方为原README
 <img alt="micro logo" width="300" src="./assets/logo.png"/>
 
 ## 简介
