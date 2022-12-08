@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>枝江往事</title>
+
+  <style>
+    #canvas {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      width: 100%;
+      height: 100%;
+
+      background: #000;
+      border: 0 none;
+    }
+
+    .visible {
+      visibility: visible;
+      opacity: .75;
+      transition: opacity .1s linear;
+    }
+
+    .hidden {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s .25s, opacity .25s linear;
+    }
+
+    #statusDiv {
+      background: #000;
+      width: 50%;
+      margin: auto;
+      min-width: 340px;
+      padding: 10px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      border-radius: 0 0 5px 5px;
+    }
+
+    #statusTextDiv {
+      overflow: auto;
+      max-height: 40vh;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    #statusProgress {
+      display: none;
+      width: 100%;
+    }
+
+
+    #ContextContainer {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      color: white;
+    }
+
+    #ContextButton {
+      text-decoration: none;
+      color: grey;
+      font-size: xx-large;
+      cursor: pointer;
+      user-select: none;
+      -moz-user-select: none;
+    }
+
+    #ContextButton:focus {
+      outline: none;
+    }
+
+    #ContextMenu a {
+      text-decoration: none;
+      color: lightgrey;
+    }
+
+    #ContextMenu a:hover {
+      text-decoration: nsone;
+      color: grey;
+    }
+
+    #ContextMenu {
+      background-color: rgb(40, 40, 40);
+      padding: 5px;
+    }
+
+    #presplash {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+
+  <div id="ContextContainer">
+    <a id="ContextButton">&#8801;</a><br />
+    <div id="ContextMenu" style="display: none;">
+      <input id="ID_SavegamesImport" type="file" onchange="onSavegamesImport(this)" accept="application/zip"
+        style=display:none></input>
+      <a href="javascript:document.getElementById('ID_SavegamesImport').click();">Import saves</a><br />
+      <a href="javascript:onSavegamesExport();">Export saves</a><br />
+      <a href="javascript:FSDownload('/log.txt', 'text/plain');">Ren'Py log</a><br />
+      <a href="https://www.renpy.org/" target="_blank">
+        <span style="font-size: smaller">
+          <span style="color: dimgrey">Powered by</span>
+          Ren'Py
+        </span>
+      </a>
+      </span>
+    </div>
+  </div>
+
+  <img id="presplash" src="web-presplash.jpg">
+
+  <div id="statusDiv" class="hidden">
+    <div id="statusTextDiv"></div>
+    <progress id="statusProgress" value="0" max="100"></progress>
+  </div>
+
+  <script src="renpy-pre.js"></script>
+  <script async type="text/javascript" src="renpy.js"></script>
+</body>
+
+</html>
+
+
