@@ -7,6 +7,14 @@
   <title>枝江往事</title>
 
   <style>
+    progress::-webkit-progress-value {
+      transition: all 0.5s ease-in-out;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     #canvas {
       position: absolute;
       top: 0px;
@@ -21,7 +29,7 @@
 
     .visible {
       visibility: visible;
-      opacity: .75;
+      opacity: 1;
       transition: opacity .1s linear;
     }
 
@@ -31,19 +39,23 @@
       transition: visibility 0s .25s, opacity .25s linear;
     }
 
+
     #statusDiv {
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
       background: #000;
-      width: 50%;
+      width: 100vw;
       margin: auto;
       min-width: 340px;
-      padding: 10px;
-
+      padding: 5vw;
+      height: auto;
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-
-      border-radius: 0 0 5px 5px;
+      bottom: 0;
     }
 
     #statusTextDiv {
@@ -95,16 +107,15 @@
     }
 
     #presplash {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
-
   </style>
 
 </head>
@@ -132,7 +143,7 @@
 
   <img id="presplash" src="web-presplash.jpg">
 
-  <div id="statusDiv" class="hidden">
+  <div id="statusDiv" class="visible">
     <div id="statusTextDiv"></div>
     <progress id="statusProgress" value="0" max="100"></progress>
   </div>
@@ -142,5 +153,3 @@
 </body>
 
 </html>
-
-
